@@ -10,7 +10,3 @@
 + [Roadmap](http://roadmap.dialogware.com/)
 + [Todo](http://todo.dialogware.com/)
 
-## SOLUTION:
-+ [Frontend Application](http://app.dialogware.com/)
-+ [API for DIALOGWARE](http://api.dialogware.com/)
-

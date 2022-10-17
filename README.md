@@ -11,10 +11,6 @@
 + [Roadmap](http://roadmap.dialogware.com/)
 + [Todo](http://todo.dialogware.com/)
 
-## SOLUTION:
-+ [Frontend Application](http://app.dialogware.com/)
-+ [API for DIALOGWARE](http://api.dialogware.com/)
-
 
 # [ABOUT](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
 
