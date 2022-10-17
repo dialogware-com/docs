@@ -1,7 +1,7 @@
 
-![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)
+[![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)]([DIALOGWARE](http://www.dialogware.com/))
 
-# [DIALOGWARE](http://www.dialogware.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/MENU.md)
+# [MENU](https://github.com/dialogware/www/blob/main/DOCS/MENU.md)  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/MENU.md)
 
 ## DOCUMENTATION:
 + [Documentation](http://docs.dialogware.com/)
@@ -16,7 +16,7 @@
 + [API for DIALOGWARE](http://api.dialogware.com/)
 
 
-# ABOUT [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
+# [ABOUT](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
 
 ## DIALOGWARE
 
