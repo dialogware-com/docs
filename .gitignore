@@ -1,4 +1,6 @@
 .idea
+DOCS/PROJECTS.md
+DOCS/PROJECTS_LOCAL.md
 # Logs
 logs
 *.log
@@ -103,3 +105,5 @@ dist
 
 # TernJS port file
 .tern-port
+.flatedit.logs.txt
+.flatedit.logs.txt
