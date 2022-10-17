@@ -1,5 +1,5 @@
 
-[![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)]([DIALOGWARE](http://www.dialogware.com/))
+[![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
 # [MENU](https://github.com/dialogware/www/blob/main/DOCS/MENU.md)  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/MENU.md)
 
