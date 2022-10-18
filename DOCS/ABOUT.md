@@ -2,7 +2,7 @@
 
 ## DIALOGWARE
 
-    With DIALOGWARE we build a software in minutes based on smart modularity
+build the software in minutes with DIALOGWARE AI 
 
 Imagine, write and deploy your application.
 We provide a platform [#text2software](https://www.text2software.com/)
