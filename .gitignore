@@ -2,6 +2,7 @@
 DOCS/PROJECTS.md
 DOCS/PROJECTS_LOCAL.md
 package-lock.json
+.github_token
 # Logs
 logs
 *.log
