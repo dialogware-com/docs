@@ -4,7 +4,7 @@
 [ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github_token)
 flatedit
 cp -fv README.md vitepress/index.md
-yarn docs:build
+yarn build
 cp -f -r vitepress/.vitepress/dist/* .
 rm README.md
 
