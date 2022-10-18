@@ -17,12 +17,12 @@ then
  echo "IT IS CLEAN"
 else
  git add . # To add the changes in local repository
- git commit -m"${MESSAGE}" # To commit the changes and prepare it for remote repository
+ git commit -m "${MESSAGE}" # To commit the changes and prepare it for remote repository
  git status # To check the status of working tree
 fi
 
 #git add . # To add the changes in local repository
-git commit -a -m"${MESSAGE}" # To commit the changes and prepare it for remote repository
+git commit -a -m "${MESSAGE}" # To commit the changes and prepare it for remote repository
 
 echo "Pushing data to remote server!!!"
 git push -u origin master # To push the changes in remote repository
