@@ -15,7 +15,7 @@ We "twitterize" the software development and will build any software just with t
 
 
 
-We start soon...
+## We start soon...
 
 #softreck #dialogware #text2software #2023
 
