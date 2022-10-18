@@ -3,9 +3,9 @@
 #GITHUB_TOKEN
 [ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github_token)
 flatedit
-cp -fv README.md vitepress/index.md
+cp -fv README.md md/index.md
 yarn build
-cp -f -r vitepress/.vitepress/dist/* .
+cp -f -r md/.vitepress/dist/* .
 rm README.md
 
 MESSAGE=$1
