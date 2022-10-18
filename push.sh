@@ -23,7 +23,7 @@ fi
 
 #git add . # To add the changes in local repository
 git commit -a -m "${MESSAGE}" # To commit the changes and prepare it for remote repository
-
+git remote add origin "github.com/dialogware/www.git"
 echo "Pushing data to remote server!!!"
 git push -u origin master # To push the changes in remote repository
 
