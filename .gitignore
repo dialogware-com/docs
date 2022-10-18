@@ -1,6 +1,7 @@
 .idea
 DOCS/PROJECTS.md
 DOCS/PROJECTS_LOCAL.md
+package-lock.json
 # Logs
 logs
 *.log

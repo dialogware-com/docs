@@ -7,4 +7,3 @@ yarn init
 npm init
 npm add --dev vitepress vue
 mkdir docs && echo '# Hello VitePress' > docs/index.md
-npm i vitepress
