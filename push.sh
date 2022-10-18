@@ -1,4 +1,5 @@
 #/bin/bash -e
+# chmod +x push.sh
 #GITHUB_TOKEN
 [ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github_token)
 flatedit
