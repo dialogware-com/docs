@@ -39,26 +39,11 @@ We start soon...
 
 
 ## SOLUTION:
+
 + [Frontend Application](http://app.dialogware.com/)
 + [API for DIALOGWARE](http://api.dialogware.com/)
 
 
-# [BUILD](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/BUILD.md)
-
-```bash
-./build.sh
-```
-
-
-
-```bash
-yarn docs:dev
-```
-
-
-```bash
-yarn docs:build
-```
 ## [HASHTAGS](https://github.com/dialogware/www/blob/main/DOCS/TAGS.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/TAGS.md)
 
 + text2sofwtare
