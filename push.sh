@@ -1,4 +1,4 @@
-#/bin/bash -e
+#!/usr/bin/env bash
 # chmod +x push.sh
 #GITHUB_TOKEN
 [ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github_token)
