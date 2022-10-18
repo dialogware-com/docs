@@ -6,10 +6,11 @@ flatedit
 cp -fv README.md vitepress/index.md
 yarn docs:build
 cp -f -r vitepress/.vitepress/dist/* .
+rm README.md
 
 MESSAGE=$1
 MESSAGE="update docs"
-[ -z $MESSAGE ] && read -p "Enter message for commit: " MESSAGE
+[ -z "$MESSAGE" ] && read -p "Enter message for commit: " MESSAGE
 git status # To check the status of working tree
 
 if [ -n "$(git status - porcelain)" ];
