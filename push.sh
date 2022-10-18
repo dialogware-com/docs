@@ -6,7 +6,7 @@ flatedit
 cp -fv README.md md/index.md
 yarn build
 cp -f -r md/.vitepress/dist/* .
-rm README.md
+#rm README.md
 
 MESSAGE=$1
 MESSAGE="update docs"

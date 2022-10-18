@@ -1,3 +1,3 @@
 #npm docs:dev
-yarn docs:dev
+yarn dev
 #npm vitepress serve docs

@@ -8,9 +8,9 @@ export default defineConfig({
         logo: '/dialogware-2lines.png',
         siteTitle: false,
         nav: [
-            {text: 'Guide', link: '/guide'},
-            {text: 'Configs', link: '/configs'},
-            {text: 'Changelog', link: 'https://github.com/...'}
+            {text: 'Roadmap', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
+            {text: 'Tasks', link: 'https://github.com/orgs/dialogware/projects/1/views/1'},
+            {text: 'Contact', link: 'https://www.linkedin.com/in/tom-sapletta-com/'}
         ],
         markdown: {
             theme: 'material-palenight',
