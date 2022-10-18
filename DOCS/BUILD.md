@@ -4,12 +4,9 @@
 ./build.sh
 ```
 
-
-
 ```bash
 yarn docs:dev
 ```
-
 
 ```bash
 yarn docs:build
