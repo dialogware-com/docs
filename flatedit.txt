@@ -1,6 +1,7 @@
 ./DOCS/MENU.md
 ./DOCS/ABOUT.md
-#./DOCS/PROJECTS.md
+./DOCS/CODE.md
+./DOCS/BUILD.md
 #./DOCS/DOCS.md
 #./DOCS/TODO.md
 ./DOCS/TAGS.md
