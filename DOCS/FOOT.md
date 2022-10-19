@@ -1,8 +1,8 @@
 ---
 
 [Home](/) -
-[Reports](/report) -
-[User](/user)
+[Reports](/report/) -
+[User](/user/)
 
 ---
 

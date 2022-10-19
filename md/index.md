@@ -46,8 +46,8 @@ We "twitterize" the software development and will build any software just with t
 ---
 
 [Home](/) -
-[Reports](/report) -
-[User](/user)
+[Reports](/report/) -
+[User](/user/)
 
 ---
 
