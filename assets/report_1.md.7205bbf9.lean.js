@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.30b12e4d.js";const g=JSON.parse('{"title":"First summary","description":"","frontmatter":{"title":"First summary","lang":"en-US"},"headers":[],"relativePath":"report/1.md"}'),t={name:"report/1.md"},p=l("",7),o=[p];function e(c,r,D,F,i,y){return a(),n("div",null,o)}const h=s(t,[["render",e]]);export{g as __pageData,h as default};
