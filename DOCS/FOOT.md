@@ -1,8 +1,8 @@
 ---
 
-[Home](/) <!-- sends the user to the root index.md -->
-[Reports](/report/)
-[User](/user/)
+[Home](/) 
+[Reports](/report)
+[User](/user)
 
 ---
 

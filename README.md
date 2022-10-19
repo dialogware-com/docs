@@ -45,9 +45,9 @@ We "twitterize" the software development and will build any software just with t
 
 ---
 
-[Home](/) <!-- sends the user to the root index.md -->
-[Reports](/report/)
-[User](/user/)
+[Home](/) 
+[Reports](/report)
+[User](/user)
 
 ---
 
