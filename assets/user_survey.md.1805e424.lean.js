@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.30b12e4d.js";const d=JSON.parse('{"title":"Contact Form","description":"","frontmatter":{"title":"Contact Form","lang":"en-US"},"headers":[],"relativePath":"user/survey.md"}'),a={name:"user/survey.md"};function o(s,n,c,p,_,i){return r(),t("div")}const u=e(a,[["render",o]]);export{d as __pageData,u as default};
