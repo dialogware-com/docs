@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # chmod +x push.sh
 #GITHUB_TOKEN
-[ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github_token)
+[ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github.token)
+[ -z $GITHUB_PROJECT ] && GITHUB_PROJECT=$(cat .github.project)
 flatedit
 cp -fv README.md md/index.md
 yarn build
@@ -24,7 +25,7 @@ fi
 
 #git add . # To add the changes in local repository
 git commit -a -m "${MESSAGE}" # To commit the changes and prepare it for remote repository
-git remote add origin "github.com/dialogware/www.git"
-echo "Pushing data to remote server!!!"
+git remote add origin $GITHUB_PROJECT
+echo "Pushing data to remote server: ${GITHUB_PROJECT}"
 git push -u origin master # To push the changes in remote repository
 
