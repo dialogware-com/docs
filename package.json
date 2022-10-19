@@ -27,6 +27,11 @@
   },
   "dependencies": {
     "vitepress": "*",
+    "vitepress-plugin-simple-search": "^1.3.0",
     "vue": "*"
+  },
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "vitepress-plugin-search": "^1.0.4-alpha.11"
   }
 }

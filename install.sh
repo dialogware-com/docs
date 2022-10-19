@@ -7,3 +7,8 @@ yarn init
 npm init
 npm add --dev vitepress vue
 mkdir docs && echo '# Hello VitePress' > docs/index.md
+
+
+npm i vitepress-plugin-simple-search
+
+npm i vitepress-plugin-search markdown-it -D

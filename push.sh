@@ -14,7 +14,6 @@ MESSAGE="update docs"
 [ -z "$MESSAGE" ] && read -p "Enter message for commit: " MESSAGE
 git status # To check the status of working tree
 git add . # To add the changes in local repository
-git add /assets # To add the changes in local repository
 
 if [ -n "$(git status - porcelain)" ];
 then
