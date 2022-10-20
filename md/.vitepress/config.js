@@ -33,6 +33,7 @@ export default defineConfig({
         logo: '/dialogware-2lines.png',
         siteTitle: false,
         nav: [
+            {text: 'Video', link: '/about/video'},
             {text: 'Team', link: '/about/team'},
             {text: 'Contact', link: '/user/contact'},
             {text: 'Roadmap', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
