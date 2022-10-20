@@ -21,3 +21,6 @@ We "twitterize" the software development and will build any software just with t
 
 #softreck #dialogware #text2software #2023
 
+## Video presentation about DIALOGWARE (polish version)
+
+<iframe src="https://www.linkedin.com/video/embed/live/urn:li:ugcPost:6988910965366882304" allowfullscreen="" title="Embedded post" width="710" height="399" frameborder="0"></iframe>
