@@ -1,16 +1,7 @@
 ---
-layout: home
+layout: docs
 title: Status of Project
 lang: en-US
-lastUpdated: true
-hero:
-    name: s
-    text: s & Vue powered static site generator.
-    tagline: Lorem ipsum...
-    actions:
-        - theme: brand
-            text: Get Started
-            link: /guide/what-is-vitepress
 ---
 
 # {{ $frontmatter.title }}

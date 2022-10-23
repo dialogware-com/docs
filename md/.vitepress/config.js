@@ -1,7 +1,6 @@
 import {defineConfig} from 'vitepress'
-import {SearchPlugin} from 'vitepress-plugin-search'
-//import { defineConfig } from "vite"
-const primarySidebar = [{text: 'Our Story', link: '/about/our-story'}]
+//import {defineConfig} from 'vite'
+import {SearchPlugin} from 'vitepress-plugin-search' // npm i vitepress-plugin-search markdown-it -D
 
 export default defineConfig({
     themeConfig: {
@@ -31,7 +30,7 @@ export default defineConfig({
         lang: 'en-US',
         title: 'DIALOGWARE',
         description: 'Text to Software solution to build a web application in minutes',
-        logo: '/dialogware-2lines.png',
+        logo: '/assets/dialogware-2lines.png',
         siteTitle: 'DIALOGWARE', // When adding a logo, it gets displayed along with the site title. If your logo is all you need and if you would like to hide the site title text, set false to the siteTitle option.
         nav: [
             //{text: 'Home', link: '/'},
@@ -77,4 +76,5 @@ export default defineConfig({
             copyright: 'Copyright © 2023  <a href="https://softreck.com" >Softreck</a>'
         }
     }
+    ,plugins: [SearchPlugin()]
 })

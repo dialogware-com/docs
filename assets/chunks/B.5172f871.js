@@ -1,0 +1,1 @@
+import{_ as n,o as e,c as o}from"../app.7b86d3fc.js";const r={};function _(c,t){return e(),o("div",null,"ComponentA")}const f=n(r,[["render",_]]),s={};function a(c,t){return e(),o("div",null,"ComponentB")}const p=n(s,[["render",a]]);export{f as C,p as a};
