@@ -1,12 +1,3 @@
----
-layout: doc
-title: About DIALOGWARE
-lang: en-US
-tags:
-- configuration
-- theme
-- indexing
----
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 

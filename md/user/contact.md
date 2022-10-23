@@ -26,8 +26,11 @@ const text = ref("")
 const name = ref("")
 function send() {
    //const url = API_URL
-const responsePromise = fetch(API_URL);
+const responsePromise = fetch(API_URL)
 console.log(responsePromise)
+//const res = await fetch(API_URL)
+//const data = await res.json()
+//console.log(data)
 //console.log(await responsePromise.json())
    //const answer = await (await fetch(API_URL)).json()
 //console.log(answer)
