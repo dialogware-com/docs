@@ -12,87 +12,76 @@ tags:
 
 # {{ $frontmatter.title }}
 
-
 <script setup>
-
+//import Compo from '/components/Compo.vue'
+//import Playground from '/components/Playground.vue'
+//import Forms from '/components/Forms.vue'
 // https://vuejs.org/guide/introduction.html#api-styles
 // https://vuejs.org/guide/essentials/forms.html
 import { ref } from 'vue'
-const API_URL = `https://email.dialogware.com`
+
+const count = ref(0)
+function increment() {
+  count.value++
+}
 
 const message = ref("")
 const email = ref("")
 const text = ref("")
 const name = ref("")
 function send() {
-   //const url = API_URL
-const responsePromise = fetch(API_URL);
-console.log(responsePromise)
-//console.log(await responsePromise.json())
-   //const answer = await (await fetch(API_URL)).json()
-//console.log(answer)
-   //message.value = await fetch(API_URL).json()
-   // message.value = await (await fetch(API_URL)).json()
+
+    //message.value=""
     //email.value=""
     //text.value=""
     //name.value=""
 }
 </script>
 
-<form method="get" action="">
-
 <div>
-<fieldset>
-<label>
-    <div>Name:</div>
+
+
+<label>Name:
     <input v-model="name" placeholder="name">
 </label>
-</fieldset>
 
-
-<fieldset>
-<label>
-    <div>E-mail:</div>
+<label>E-mail:
     <input v-model="email" placeholder="@" />
 </label>
-</fieldset>
 
-<fieldset>   
 <label>
-    <div>Message:</div>
     <textarea v-model="message" placeholder="message" />
 </label>
-</fieldset>
 
 </div>
 
-</form>    
-
 
 <button @click="send">Send Message</button>
+
+
+<button submit="true" class="btn btn-primary">Submit</button>
+
+
+<button @click="increment">Count iss: {{ count }}</button>
+
+<div>
+  <button @click="count++">Count isaaa: {{ count }}</button>
+</div>
+
 
 <style scoped>
 button {
   font-weight: bold;
   color: gray;
   background-color: black;
-  padding: 5px;
-  border: 1px solid white;
-}
-
-input, textarea {
-  color: white;
-  background-color: black;
-  padding: 1px;
-  border: 1px solid white;
-}
-
-label div{
-    white-space: pre-line;
-  color: gray;
-  padding: 0px;
 }
 </style>
+
+<forms />
+<playground />
+<compo />
+
+
 
 ---
 

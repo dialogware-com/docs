@@ -9,15 +9,7 @@ tags:
 - indexing
 ---
 
-
-<template>
-  <div>
-    <button v-for="tab in tabs" :key="tab" @click="component = tab">
-      {{tab}}
-    </button>
-    <component :is="component" />
-  </div>
-</template>
+## Introduction
 
 <script setup>
 import ComponentA from '/components/A.vue'
@@ -28,6 +20,18 @@ const tabs= ['ComponentA', 'ComponentB']
 const component= ComponentA
 console.log(components)
 </script>
+
+<template>
+  <div>
+    <button v-for="tab in tabs" :key="tab" @click="component = tab">
+      {{tab}}
+    </button>
+    <component :is="component" />
+  </div>
+</template>
+
+
+
 
 https://www.linkedin.com/video/live/urn:li:ugcPost:6988910965366882304
 [on linkedin](https://www.linkedin.com/video/live/urn:li:ugcPost:6988910965366882304/)
