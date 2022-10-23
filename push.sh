@@ -5,7 +5,7 @@
 [ -z $GITHUB_PROJECT ] && GITHUB_PROJECT=$(cat .github.project)
 flatedit
 cp -fv README.md md/index.md
-yarn build
+yarn build || exit
 cp -f -r md/.vitepress/dist/* .
 #rm README.md
 

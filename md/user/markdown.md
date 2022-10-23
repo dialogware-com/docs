@@ -14,23 +14,6 @@ tags:
 
 https://vuejs.org/examples/#markdown
 
-<script setup>
-import { ref } from 'vue'
-
-const message = ref("")
-const email = ref("")
-const text = ref("")
-const name = ref("")
-function update() {
-    marked(this.input)
-    //text.value=""
-    //name.value=""
-}
-</script>
-
-<div>
-
-
 <div class="editor">
 <textarea class="input" :value="input" @input="update"></textarea>
 <div class="output" v-html="output"></div>
