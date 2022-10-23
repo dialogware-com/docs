@@ -3,6 +3,8 @@ title: Newsletter
 lang: en-US
 ---
 
+# {{ $frontmatter.title }}
+
 + Weekly
 + per Month
 

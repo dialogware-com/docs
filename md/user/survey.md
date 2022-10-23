@@ -2,9 +2,9 @@
 title: Survey
 lang: en-US
 prev: ./some-other-page
-next: false
 ---
 
+# {{ $frontmatter.title }}
 
 test 
 

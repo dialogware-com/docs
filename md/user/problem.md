@@ -3,7 +3,8 @@ title: Problem, Bug
 lang: en-US
 ---
 
-## Problem
+# {{ $frontmatter.title }}
+
 
 How to stay
 

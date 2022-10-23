@@ -1,6 +1,17 @@
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
+---
+layout: doc
+title: About DIALOGWARE
+lang: en-US
+tags:
+- configuration
+- theme
+- indexing
+---
+
+
 # [ABOUT DIALOGWARE](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
 
 build the software in minutes with DIALOGWARE AI 
@@ -23,13 +34,6 @@ We "twitterize" the software development and will build any software just with t
 ## We start soon...
 
 #softreck #dialogware #text2software #2023
-
-
-## Github Projects:
-
-+ [Frontend Application](http://app.dialogware.com/)
-+ [API for DIALOGWARE](http://api.dialogware.com/)
-
 
 # MORE
 

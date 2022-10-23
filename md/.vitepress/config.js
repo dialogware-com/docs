@@ -1,6 +1,7 @@
 import {defineConfig} from 'vitepress'
-import { SearchPlugin } from 'vitepress-plugin-search'
+import {SearchPlugin} from 'vitepress-plugin-search'
 //import { defineConfig } from "vite"
+const primarySidebar = [{text: 'Our Story', link: '/about/our-story'}]
 
 export default defineConfig({
     themeConfig: {
@@ -31,19 +32,36 @@ export default defineConfig({
         title: 'DIALOGWARE',
         description: 'Text to Software solution to build a web application in minutes',
         logo: '/dialogware-2lines.png',
-        siteTitle: 'DIALOGWARE',
+        siteTitle: 'DIALOGWARE', // When adding a logo, it gets displayed along with the site title. If your logo is all you need and if you would like to hide the site title text, set false to the siteTitle option.
         nav: [
             //{text: 'Home', link: '/'},
             {text: 'Status', link: '/about/status'},
             {text: 'Video', link: '/about/video'},
             {text: 'Team', link: '/about/team'},
-            {text: 'Contact', link: '/user/contact'},
-            {text: 'Roadmap', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
-            {text: 'Tasks', link: 'https://github.com/orgs/dialogware/projects/1/views/1'},
+            {
+                text: 'Documentation',
+                items: [
+                    {text: 'docs.dialogware.com', link: 'https://docs.dialogware.com/'},
+                    {text: 'Roadmap on github', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
+                    {text: 'Tasks on github', link: 'https://github.com/orgs/dialogware/projects/1/views/1'}
+                ]
+            },
             //{text: 'Contact', link: 'https://www.linkedin.com/in/tom-sapletta-com/'},
-            {text: 'Documentation', link: 'https://docs.dialogware.com/'},
-            {text: 'Start', link: '/user/registration'}
+            //{text: 'Start', link: '/user/registration'},
+            {text: 'Contact', link: '/user/contact'},
+
         ],
+        /*
+        sidebar: [
+            {
+                text: 'Guide',
+                items: [
+                    { text: 'Introduction', link: '/introduction' },
+                    { text: 'Getting Started', link: '/getting-started' },
+                ]
+            }
+        ],
+        */
         markdown: {
             theme: 'material-palenight',
             lineNumbers: true

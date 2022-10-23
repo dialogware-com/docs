@@ -1,17 +1,24 @@
 ---
-layout: doc
+layout: home
 title: Status of Project
 lang: en-US
-tags:
-- configuration
-- theme
-- indexing
+lastUpdated: true
+hero:
+    name: s
+    text: s & Vue powered static site generator.
+    tagline: Lorem ipsum...
+    actions:
+        - theme: brand
+            text: Get Started
+            link: /guide/what-is-vitepress
 ---
 
-![DIALOGWARE](https://logo.dialogware.com/3/cover.png)
+# {{ $frontmatter.title }}
 
-+ dialogware - Roadmap
-+ Milestones and Goals
+
++ [Roadmap](http://roadmap.dialogware.com/) - [ROADMAP of DIALOGWARE](https://github.com/orgs/dialogware/projects/2/views/1)
++ [Todo](http://todo.dialogware.com/) - [DIALOGWARE TASK'S](https://github.com/orgs/dialogware/projects/1/views/1)
+
 
 This document describes the current status and the upcoming milestones of the dialogware project.
 
@@ -67,3 +74,4 @@ This document describes the current status and the upcoming milestones of the di
 
 
 
+![DIALOGWARE](https://logo.dialogware.com/3/cover.png)

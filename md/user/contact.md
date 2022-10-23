@@ -8,7 +8,7 @@ tags:
 - indexing
 ---
 
-# Contact Form
+# {{ $frontmatter.title }}
 
 + Name
 + Email

@@ -10,7 +10,16 @@ tags:
 - indexing
 ---
 
-# User Account
+
+<script setup>
+import { useData } from 'vitepress'
+
+const { page } = useData()
+</script>
+
+<pre>{{ page }}</pre>
+
+# {{ $frontmatter.title }}
 
 
 + status

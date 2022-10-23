@@ -3,7 +3,7 @@ title: Registration Form
 lang: en-US
 ---
 
-# Registration Form
+# {{ $frontmatter.title }}
 
 + login
 + password

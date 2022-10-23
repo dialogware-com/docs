@@ -1,3 +1,14 @@
+---
+layout: doc
+title: About DIALOGWARE
+lang: en-US
+tags:
+- configuration
+- theme
+- indexing
+---
+
+
 # [ABOUT DIALOGWARE](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
 
 build the software in minutes with DIALOGWARE AI 

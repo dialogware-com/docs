@@ -3,7 +3,7 @@ title: How to stay partner
 lang: en-US
 ---
 
-## Partnership
+# {{ $frontmatter.title }}
 
 How to stay
 
