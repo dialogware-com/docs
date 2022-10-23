@@ -14,8 +14,15 @@ const members = [
     name: 'Tom Sapletta',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/tom-sapletta-com' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/tom-sapletta-com' }
+    ]
+  },
+ {
+    avatar: 'https://logo.dialogware.com/dialogware-logo-pivot.png',
+    name: 'Join us!',
+    title: 'Software Developer',
+    links: [
+       { icon: 'linkedin', link: 'https://www.linkedin.com/in/tom-sapletta-com' }
     ]
   }
 ]

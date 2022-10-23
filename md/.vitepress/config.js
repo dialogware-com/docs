@@ -5,7 +5,7 @@ import { SearchPlugin } from 'vitepress-plugin-search'
 export default defineConfig({
     themeConfig: {
         // Assumes GitHub. Can also be a full GitLab url.
-        repo: 'vuejs/vuepress',
+        repo: 'dialogware/www',
         // Customising the header label
         // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
         repoLabel: 'Contribute!',
@@ -26,13 +26,15 @@ export default defineConfig({
         editLinkText: 'Help us improve this page!',
         smoothScroll: true,
         displayAllHeaders: true, // Default: false
-        activeHeaderLinks: false,
+        activeHeaderLinks: true,
         lang: 'en-US',
         title: 'DIALOGWARE',
         description: 'Text to Software solution to build a web application in minutes',
         logo: '/dialogware-2lines.png',
-        siteTitle: false,
+        siteTitle: 'DIALOGWARE',
         nav: [
+            //{text: 'Home', link: '/'},
+            {text: 'Status', link: '/about/status'},
             {text: 'Video', link: '/about/video'},
             {text: 'Team', link: '/about/team'},
             {text: 'Contact', link: '/user/contact'},

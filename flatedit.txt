@@ -5,5 +5,6 @@
 #./DOCS/BUILD.md
 #./DOCS/DOCS.md
 #./DOCS/TODO.md
+./DOCS/MORE.md
 ./DOCS/TAGS.md
 ./DOCS/FOOT.md

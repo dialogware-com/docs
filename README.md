@@ -25,11 +25,17 @@ We "twitterize" the software development and will build any software just with t
 #softreck #dialogware #text2software #2023
 
 
-## SOLUTION:
+## Github Projects:
 
 + [Frontend Application](http://app.dialogware.com/)
 + [API for DIALOGWARE](http://api.dialogware.com/)
 
+
+# MORE
+
+[Home](/) -
+[Reports](/report/) -
+[User](/user/)
 
 ## [HASHTAGS](https://github.com/dialogware/www/blob/main/DOCS/TAGS.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/TAGS.md)
 
@@ -42,11 +48,6 @@ We "twitterize" the software development and will build any software just with t
 + scripts
 + language
 
-
-
-[Home](/) -
-[Reports](/report/) -
-[User](/user/)
 
 ---
 
