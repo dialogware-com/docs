@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: About DIALOGWARE
 lang: en-US
 tags:

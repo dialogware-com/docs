@@ -3,7 +3,7 @@
 #GITHUB_TOKEN
 [ -z $GITHUB_TOKEN ] && GITHUB_TOKEN=$(cat .github.token)
 [ -z $GITHUB_PROJECT ] && GITHUB_PROJECT=$(cat .github.project)
-flatedit
+#flatedit
 cp -fv README.md md/index.md
 yarn build
 cp -f -r md/.vitepress/dist/* .
