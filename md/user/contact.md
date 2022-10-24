@@ -112,7 +112,7 @@ function send() {
 
 <div class="warning custom-block warning_message" v-if="warning_message">
     <p class="custom-block-title">Error</p>
-    <p>please fill all of fields</p>
+    <p>Please fill the fields with min. 6 characters</p>
 </div>
 
 <div class="warning custom-block error_message" v-if="error_message">
