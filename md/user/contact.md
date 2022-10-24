@@ -25,11 +25,10 @@ const email = ref("")
 const text = ref("")
 const name = ref("")
 
-const info_message = ref("false")
-const email_form = ref("true")
+const info_message = ref(false)
+const email_form = ref(true)
 
 function send() {
-    email_form.value = false
 
     var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
     //const API_URL = `https://email.dialogware.com/`
@@ -46,6 +45,7 @@ function send() {
         email.value = data.email
         text.value = data.text
         name.value = data.name
+        email_form.value = false
         info_message.value = true
     });
 
@@ -81,20 +81,18 @@ function send() {
 </form>    
 
 <div v-if="email_form">
-<fieldset >   
+<fieldset>   
 <button @click="send">Send Message</button>
 </fieldset>
 </div>
 
 
-<div class="tip custom-block info_message" id="info_message" v-if="info_message">
-<p class="custom-block-title">Info</p>
-<p>We got your Email!</p>
+<div class="tip custom-block" v-if="info_message">
+    <p class="custom-block-title">Info</p>
+    <p>We got your Email!</p>
 </div>
 
 <style scoped>
-.info_message {
-}
 .email_form {
   display: flex;
   align-items: center;
