@@ -40,33 +40,33 @@ function send() {
     } else {
         warning_message.value = false
         error_message.value = true
-    }
-
-    var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
-    //const API_URL = `https://email.dialogware.com/`
     
-    fetch(
-        API_URL,
-        {
-            method: 'get',
-        }
-    ).then(response => response.json() )
-    .then(data => {
-        console.log(data);
-        message.value = data.message
-        email.value = data.email
-        text.value = data.text
-        name.value = data.name
-        if(data.found > 2){
-            error_message.value = true
-        } else {
-            error_message.value = false
-            warning_message.value = false
-            email_form.value = false
-            info_message.value = true
-        }
-    });
-
+    
+        var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
+        //const API_URL = `https://email.dialogware.com/`
+        
+        fetch(
+            API_URL,
+            {
+                method: 'get',
+            }
+        ).then(response => response.json() )
+        .then(data => {
+            console.log(data);
+            message.value = data.message
+            email.value = data.email
+            text.value = data.text
+            name.value = data.name
+            if(data.found > 2){
+                error_message.value = true
+            } else {
+                error_message.value = false
+                warning_message.value = false
+                email_form.value = false
+                info_message.value = true
+            }
+        });
+    }
 }
 </script>
 
@@ -99,7 +99,7 @@ function send() {
 </form>    
 
 <div v-if="email_form">
-<fieldset>   
+<fieldset class="button_send">   
 <button @click="send">Send Message</button>
 </fieldset>
 </div>
@@ -129,13 +129,16 @@ function send() {
 
 .email_form input,
 .email_form textarea,
+.button_send,
 button,
 .tip,
 .warning
 {
     width: 300px;
 }
-
+fieldset {
+  border: 0px solid white;
+}
 button {
   font-weight: bold;
   color: gray;
