@@ -93,13 +93,13 @@ function send() {
 </div>
 
 
-<div class="tip custom-block" v-if="info_message">
+<div class="tip custom-block info_message" v-if="info_message">
     <p class="custom-block-title">Info</p>
     <p>We got your Email!</p>
 </div>
 
 
-<div class="warning custom-block" v-if="error_message">
+<div class="warning custom-block error_message" v-if="error_message">
     <p class="custom-block-title">Error</p>
     <p>Sending message is not possible, contact me please on <a href="https://www.linkedin.com/in/tom-sapletta-com">linkedin</a> </p>
 </div>
@@ -114,7 +114,8 @@ function send() {
 .email_form input,
 .email_form textarea,
 button,
-.tip {
+.tip,
+.warning{
     width: 300px;
 }
 
