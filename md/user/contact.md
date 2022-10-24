@@ -30,7 +30,6 @@ const email_form = ref("true")
 
 function send() {
     email_form.value = false
-    info_message.value = true
 
     var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
     //const API_URL = `https://email.dialogware.com/`
@@ -47,7 +46,7 @@ function send() {
         email.value = data.email
         text.value = data.text
         name.value = data.name
-        info_message = true
+        info_message.value = true
     });
 
 }
