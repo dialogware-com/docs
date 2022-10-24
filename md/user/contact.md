@@ -15,6 +15,7 @@ tags:
 
 <script setup>
 
+
 // https://vuejs.org/guide/introduction.html#api-styles
 // https://vuejs.org/guide/essentials/forms.html
 import { ref } from 'vue'
@@ -24,28 +25,33 @@ const email = ref("")
 const text = ref("")
 const name = ref("")
 
+const info_message = false
+const email_form = true
 function send() {
-var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
-//const API_URL = `https://email.dialogware.com/`
+    const email_form = false
 
-fetch(
-	API_URL,
-	{
-		method: 'get',
-	}
-).then(response => response.json() )
-.then(data => {
-	console.log(data);
-    message.value = data.message
-    email.value = data.email
-    text.value = data.text
-    name.value = data.name
-});
+    var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
+    //const API_URL = `https://email.dialogware.com/`
+    
+    fetch(
+        API_URL,
+        {
+            method: 'get',
+        }
+    ).then(response => response.json() )
+    .then(data => {
+        console.log(data);
+        message.value = data.message
+        email.value = data.email
+        text.value = data.text
+        name.value = data.name
+        const info_message = true
+    });
 
 }
 </script>
 
-<form method="get" action="">
+<form method="get" class="email_form" id="email_form" v-if="email_form">
 
 <div>
 <fieldset>
@@ -70,14 +76,40 @@ fetch(
 </label>
 </fieldset>
 
+
+
+
 </div>
+
 
 </form>    
 
-
+<fieldset>   
 <button @click="send">Send Message</button>
+</fieldset>
+
+
+<div class="tip custom-block info_message" id="info_message" v-if="info_message">
+<p class="custom-block-title">Info</p>
+<p data-v-b7863848="">We send the Email</p>
+</div>
 
 <style scoped>
+.info_message {
+}
+.email_form {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.email_form input,
+.email_form textarea,
+button,
+.tip {
+    width: 300px;
+}
+
 button {
   font-weight: bold;
   color: gray;
@@ -100,7 +132,3 @@ label div{
 }
 </style>
 
----
-
-+ [Home](http://www.dialogware.com/)
-+ [Documentation](http://docs.dialogware.com/)

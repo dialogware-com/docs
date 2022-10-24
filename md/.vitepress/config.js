@@ -73,9 +73,19 @@ export default defineConfig({
             text: 'Edit this page on GitHub'
         },
         footer: {
-            message: 'Released under the  <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">Apache License</a>.',
+            message: 'Released under the  <a href="https://github.com/dialogware/www/blob/main/LICENSE">Apache License</a>.',
             copyright: 'Copyright © 2023  <a href="https://softreck.com" >Softreck</a>'
-        }
+        },
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/dialogware/www' },
+            //{ icon: 'twitter', link: '' },
+            {
+                icon: {
+                    svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>'
+                },
+                link: ''
+            }
+        ]
     }
     ,plugins: [SearchPlugin()]
 })
