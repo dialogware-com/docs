@@ -25,12 +25,23 @@ const email = ref("")
 const text = ref("")
 const name = ref("")
 
+const warning_message = ref(false)
 const error_message = ref(false)
 const info_message = ref(false)
 const email_form = ref(true)
 
 function send() {
-    error_message.value = true
+    if ( 
+        (name.value.length < 3) || 
+        (email.value.length < 5) || 
+        (message.value.length < 5) 
+    ){
+        warning_message.value = true
+    } else {
+        warning_message.value = false
+        error_message.value = true
+    }
+
     var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
     //const API_URL = `https://email.dialogware.com/`
     
@@ -50,6 +61,7 @@ function send() {
             error_message.value = true
         } else {
             error_message.value = false
+            warning_message.value = false
             email_form.value = false
             info_message.value = true
         }
@@ -98,6 +110,10 @@ function send() {
     <p>We got your Email!</p>
 </div>
 
+<div class="warning custom-block warning_message" v-if="warning_message">
+    <p class="custom-block-title">Error</p>
+    <p>please fill all of fields</p>
+</div>
 
 <div class="warning custom-block error_message" v-if="error_message">
     <p class="custom-block-title">Error</p>
@@ -115,7 +131,8 @@ function send() {
 .email_form textarea,
 button,
 .tip,
-.warning{
+.warning
+{
     width: 300px;
 }
 
@@ -135,7 +152,7 @@ input, textarea {
 }
 
 label div{
-    white-space: pre-line;
+  white-space: pre-line;
   color: gray;
   padding: 0px;
 }
