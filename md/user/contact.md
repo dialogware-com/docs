@@ -25,11 +25,12 @@ const email = ref("")
 const text = ref("")
 const name = ref("")
 
+const error_message = ref(false)
 const info_message = ref(false)
 const email_form = ref(true)
 
 function send() {
-
+    error_message.value = true
     var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
     //const API_URL = `https://email.dialogware.com/`
     
@@ -45,8 +46,13 @@ function send() {
         email.value = data.email
         text.value = data.text
         name.value = data.name
-        email_form.value = false
-        info_message.value = true
+        if(data.found > 2){
+            error_message.value = true
+        } else {
+            error_message.value = false
+            email_form.value = false
+            info_message.value = true
+        }
     });
 
 }
@@ -90,6 +96,12 @@ function send() {
 <div class="tip custom-block" v-if="info_message">
     <p class="custom-block-title">Info</p>
     <p>We got your Email!</p>
+</div>
+
+
+<div class="warning custom-block" v-if="error_message">
+    <p class="custom-block-title">Error</p>
+    <p>Sending message is not possible, contact me please on <a href="https://www.linkedin.com/in/tom-sapletta-com">linkedin</a> </p>
 </div>
 
 <style scoped>
