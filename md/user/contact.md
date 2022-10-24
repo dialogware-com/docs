@@ -18,27 +18,30 @@ tags:
 // https://vuejs.org/guide/introduction.html#api-styles
 // https://vuejs.org/guide/essentials/forms.html
 import { ref } from 'vue'
-const API_URL = `https://email.dialogware.com`
 
 const message = ref("")
 const email = ref("")
 const text = ref("")
 const name = ref("")
+
 function send() {
-   //const url = API_URL
-const responsePromise = fetch(API_URL)
-console.log(responsePromise)
-//const res = await fetch(API_URL)
-//const data = await res.json()
-//console.log(data)
-//console.log(await responsePromise.json())
-   //const answer = await (await fetch(API_URL)).json()
-//console.log(answer)
-   //message.value = await fetch(API_URL).json()
-   // message.value = await (await fetch(API_URL)).json()
-    //email.value=""
-    //text.value=""
-    //name.value=""
+var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
+//const API_URL = `https://email.dialogware.com/`
+
+fetch(
+	API_URL,
+	{
+		method: 'get',
+	}
+).then(response => response.json() )
+.then(data => {
+	console.log(data);
+    message.value = data.message
+    email.value = data.email
+    text.value = data.text
+    name.value = data.name
+});
+
 }
 </script>
 

@@ -5,7 +5,16 @@ lang: en-US
 
 # {{ $frontmatter.title }}
 
-How to stay
+Partners can benefit from different layers of this system. 
++ testing the newest applications
++ more applications than available for regular user
+
+
+Are You interested?
+
+Contact us and tell about your requirement/s (e.g., form of cooperation) to make a faster agreement process.
+
+
 
 + [Home](http://www.dialogware.com/)
 + [Documentation](http://docs.dialogware.com/)
