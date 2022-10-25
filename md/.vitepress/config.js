@@ -37,7 +37,8 @@ export default defineConfig({
             //{text: 'Home', link: '/'},
             {text: 'Status', link: '/about/status'},
             {text: 'Video', link: '/about/video'},
-            {text: 'Team', link: '/about/team'},
+            {text: 'Our Story', link: '/about/story'},
+            {text: 'Team & Partners', link: '/about/team'},
             {
                 text: 'Documentation',
                 items: [
@@ -78,6 +79,7 @@ export default defineConfig({
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/dialogware/www' },
+            { icon: 'pioneer', link: 'https://pioneer.app/leaderboard' },
             { icon: 'linkedin', link: 'https://www.linkedin.com/showcase/dialogware/' },
             //{ icon: 'twitter', link: '' },
             /*
