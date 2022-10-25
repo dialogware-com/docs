@@ -2,14 +2,14 @@
 layout: doc
 title: Video presentation about DIALOGWARE (polish version)
 lang: en-US
-prev: 'index | Markdown'
 tags:
 - configuration
 - theme
 - indexing
 ---
 
-## Introduction
+# {{ $frontmatter.title }}
+
 
 <script setup>
 import ComponentA from '/components/A.vue'
