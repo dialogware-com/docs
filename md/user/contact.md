@@ -107,7 +107,7 @@ function send() {
 
 <div class="tip custom-block info_message" v-if="info_message">
     <p class="custom-block-title">Info</p>
-    <p>We got your Email!</p>
+    <p>We got your Email! What can be the next step? Join us on <a href="https://www.linkedin.com/showcase/dialogware/">linkedin</a> </p>
 </div>
 
 <div class="warning custom-block warning_message" v-if="warning_message">

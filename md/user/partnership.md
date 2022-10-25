@@ -14,7 +14,3 @@ Are You interested?
 
 Contact us and tell about your requirement/s (e.g., form of cooperation) to make a faster agreement process.
 
-
-
-+ [Home](http://www.dialogware.com/)
-+ [Documentation](http://docs.dialogware.com/)

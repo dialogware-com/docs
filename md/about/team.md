@@ -31,7 +31,7 @@ const coreMembers = [
     name: 'Join us!',
     title: 'Software Developer',
     links: [
-       { icon: 'linkedin', link: 'https://www.linkedin.com/in/tom-sapletta-com' }
+       { icon: 'linkedin', link: 'https://www.linkedin.com/showcase/dialogware/' }
     ]
   }
 ]
