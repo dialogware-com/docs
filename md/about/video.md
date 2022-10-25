@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Video presentation about DIALOGWARE (polish version)
+title: Video presentation about DIALOGWARE on linkedin (polish version)
 lang: en-US
 tags:
 - configuration
