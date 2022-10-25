@@ -57,7 +57,7 @@ function send() {
             email.value = data.email
             text.value = data.text
             name.value = data.name
-            if(data.found > 2){
+            if(data.found > 5){
                 error_message.value = true
             } else {
                 error_message.value = false
