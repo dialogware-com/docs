@@ -79,8 +79,8 @@ export default defineConfig({
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/dialogware/www' },
-            { icon: 'pioneer', link: 'https://pioneer.app/leaderboard' },
             { icon: 'linkedin', link: 'https://www.linkedin.com/showcase/dialogware/' },
+            { icon: 'twitter', link: 'https://pioneer.app/leaderboard' },
             //{ icon: 'twitter', link: '' },
             /*
             {
