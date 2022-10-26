@@ -1,3 +1,10 @@
+---
+layout: docs
+title: DIALOGWARE is a text2software platform, build any app MVP in minutes
+lang: en-US
+---
+
+# [DIALOGWARE](http://www.dialogware.com/) 
 
 Build any software in a few minutes with that simple steps:
 
@@ -6,12 +13,12 @@ Build any software in a few minutes with that simple steps:
 + deploy with a click
 + use your app online
 
-[DIALOGWARE](http://www.dialogware.com/)  is a real time [#text2software](https://www.text2software.com/) platform with own marketplace.
+We provide a platform [#text2software](https://www.text2software.com/)
+to prepare your first MVP application in a minutes.
+
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
-We provide a platform [#text2software](https://www.text2software.com/)
-to prepare your first MVP application in a minutes.
 After you answer on our questions with few sentences of your expectation, we will deploy your first MVP version of web/mobile application.
 It's much cheaper and easy way than no-code or low-code solutions.
 
@@ -21,6 +28,7 @@ We "twitterize" the software development and will build any software just with t
 Please find more details in [Documentation](http://docs.dialogware.com/)
 
 We are on [Pioneer](https://pioneer.app/join/dialogware.com)
+
 
 ## Our Story
 
