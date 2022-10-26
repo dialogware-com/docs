@@ -65,9 +65,11 @@ const partners = [
 </script>
 
 
+## Our Team
+
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>Our Team</template>
+    <template #title></template>
     <template #lead>The development of DIALOGWARE is guided by an international
       team, some of whom have chosen to be featured below.</template>
   </VPTeamPageTitle>

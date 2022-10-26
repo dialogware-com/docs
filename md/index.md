@@ -87,17 +87,25 @@ const partners = [
 ]
 </script>
 
+## Our Team
+The development of DIALOGWARE is guided by an international
+team, some of whom have chosen to be featured below.
 
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>Our Team</template>
-    <template #lead>The development of DIALOGWARE is guided by an international
-      team, some of whom have chosen to be featured below.</template>
-  </VPTeamPageTitle>
-  <VPTeamMembers size="medium" :members="coreMembers" />
   <VPTeamPageSection>
-    <template #title>Partners</template>
-    <template #lead>Organization they support our project </template>
+    <template #members>
+      <VPTeamMembers size="small" :members="coreMembers" />
+    </template>
+    </VPTeamPageSection>
+</VPTeamPage>
+
+
+## Our Partners
+
+Organization they support our project
+
+<VPTeamPage>
+  <VPTeamPageSection>
     <template #members>
       <VPTeamMembers size="small" :members="partners" />
     </template>
@@ -105,7 +113,7 @@ const partners = [
 </VPTeamPage>
 
 
-## OUR HASHTAGS
+## Our Hashtags
 
 + text2software
 + text2app
