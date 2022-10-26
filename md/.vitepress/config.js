@@ -38,7 +38,7 @@ export default defineConfig({
             {text: 'Status', link: '/about/status'},
             {text: 'Video', link: '/about/video'},
             {text: 'Our Story', link: '/about/story'},
-            {text: 'Team & Partners', link: '/about/team'},
+            //{text: 'Team & Partners', link: '/about/team'},
             {
                 text: 'Documentation',
                 items: [
