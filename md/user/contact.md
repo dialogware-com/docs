@@ -33,7 +33,6 @@ const email_form = ref(true)
 function send() {
     error_message.value = false
     warning_message.value = false
-    email_form.value = false
     if ( 
         (name.value.length < 3) || 
         (email.value.length < 5) || 
