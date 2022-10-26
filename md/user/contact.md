@@ -34,9 +34,9 @@ function send() {
     error_message.value = false
     warning_message.value = false
     if ( 
-        (name.value.length < 3) || 
+        (name.value.length < 2) || 
         (email.value.length < 5) || 
-        (message.value.length < 5) 
+        (message.value.length < 3) 
     ){
         warning_message.value = true
     } else {
@@ -114,7 +114,7 @@ function send() {
 
 <div class="warning custom-block warning_message" v-if="warning_message">
     <p class="custom-block-title">Error</p>
-    <p>Please fill the fields with min. 6 characters</p>
+    <p>Please fill the fields with min. 3 characters</p>
 </div>
 
 <div class="warning custom-block error_message" v-if="error_message">
