@@ -1,7 +1,12 @@
 
 Build the software in minutes with [DIALOGWARE](http://www.dialogware.com/) 
 
-+ just catch the Idea, write description and deploy as an application.
++ catch the Idea
++ write description
++ deploy with a click
++ use your app online
+
+DIALOGWARE is a real time #text2software platform with own marketplace.
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
