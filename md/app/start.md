@@ -13,11 +13,11 @@ You can start creating an audience in just 3 steps.
 ## 1 Click Register
 Hit the yellow button in the top right corner of this page.
 
-## 2 Complete the wizard
-Fill in the information that the wizard asks you.
+## 2 Find ready solutions on marketplace
+Load the app, check demo, deploy on your own infrastructure
 
-## 3 Start creating
-Start creating your podcast.
+## 3 Start creating or customize existing apps on marketplace
+Start creating your software applications based on description.
 
 
 ## First app
