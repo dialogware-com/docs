@@ -28,12 +28,7 @@ We are on [Pioneer](https://pioneer.app/join/dialogware.com)
 + text2software
 + text2app
 + text2srs
-+ low-code 
-+ no-code
-+ API
-+ library
-+ framework 
-+ scripts
++ text2api
 + domain-specific language
 
 

@@ -4,4 +4,10 @@
 + text2app
 + text2srs
 + text2api
++ low-code 
++ no-code
++ API
++ library
++ framework 
++ scripts
 + domain-specific language
