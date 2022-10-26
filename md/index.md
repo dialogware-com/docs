@@ -1,12 +1,12 @@
 
-Build the software in minutes with [DIALOGWARE](http://www.dialogware.com/) 
+Build any software in a few minutes with simple steps:
 
 + catch the Idea
 + write description
 + deploy with a click
 + use your app online
 
-DIALOGWARE is a real time #text2software platform with own marketplace.
+[DIALOGWARE](http://www.dialogware.com/)  is a real time [#text2software](https://www.text2software.com/) platform with own marketplace.
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
