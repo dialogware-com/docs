@@ -14,7 +14,6 @@ Today we want to bring the software development to the next level.
 Our goal is building software in minutes with humanless software development systems.
 
 
-![DIALOGWARE](https://logo.dialogware.com/3/cover.png)
 
 
 
@@ -81,3 +80,6 @@ const partners = [
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
+
+
+![DIALOGWARE](https://logo.dialogware.com/3/cover.png)

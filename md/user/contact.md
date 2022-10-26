@@ -31,6 +31,9 @@ const info_message = ref(false)
 const email_form = ref(true)
 
 function send() {
+    error_message.value = false
+    warning_message.value = false
+    email_form.value = false
     if ( 
         (name.value.length < 3) || 
         (email.value.length < 5) || 
@@ -40,7 +43,6 @@ function send() {
     } else {
         warning_message.value = false
         //error_message.value = true
-    
     
         var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
         //const API_URL = `https://email.dialogware.com/`
@@ -52,11 +54,12 @@ function send() {
             }
         ).then(response => response.json() )
         .then(data => {
-            console.log(data);
+            //console.log(data);
             message.value = data.message
             email.value = data.email
             text.value = data.text
             name.value = data.name
+
             if(data.found > 5){
                 error_message.value = true
             } else {
