@@ -15,12 +15,16 @@ Dlaczego model prowizyjny, a nie stała, miesięczna opłata?
 ## Koszty
 
 Na nasze koszty składają się poza wytworzeniem oprogramowania, jego utrzymanie.
-Każda z akcji (taka jak zakup czy odnowienie) jest przeliczona na koszt operacji, serwerowy, wsparcia. 
- 
-Przy opłatach stałych, plany na ogół muszą być ułożone tak, że mniejsi sprzedawcy biorą na siebie część kosztów tych większych. 
-Przy prowizji, nie ma to miejsca - to najbardziej uczciwy model.
+Każda z akcji jest stałą opłatą za uruchomienie, zawiera się w niej koszt operacji, infrastruktura i support.
+Przy stałych miesięcznych opłatach, plany na ogół nie biorą pod uwagę użycia, ewentualnie zwiększają o to koszt.
+Przy prowizji, nie ma to miejsca - to uczciwy model, dopasowany do dynamicznych firm, startupów.
+Kupując pakiet token na 1000 użyć można je potem zwrócić, otrzymując zwrot gotówki 
+
 
 ## Wspólne cele
-Po drugie, sprawia on, że Twoje i nasze cele są zbieżne. Po prostu - jeśli Ty zarabiasz, my zarabiamy. 
-To determinuje nasze wartości i wynikają z tego kampanie promocyjne, które prowadzimy dla sprzedających w media.
-Jeśli zarobisz więcej, my zarobimy więcej. Gramy w jednej drużynie!
+Wasze i nasze cele są zbieżne.
+Dopiero użycie generuje znaczny koszt, dlatego rozliczamy za użycie a nie za utrzymanie infrastruktury.
+Jeśli używacie serwer wszyscy zyskują, wy automatyzację, my rozlcizeniu za konkretną pracę serwera. 
+To determinuje kolejne kroki w celu optymalizacji kosztów.
+Jeśli zarobisz więcej, my zarobimy więcej. 
+Gramy w jednej drużynie!
