@@ -1,5 +1,26 @@
+---
+layout: doc
+title: Contact Form
+lang: en-US
+tags:
+
+- configuration
+- theme
+- indexing
+
+---
 
 Dlaczego model prowizyjny, a nie stała, miesięczna opłata?
-Po pierwsze, to model, który najlepiej adresuje relację opłat do kosztów. Na nasze koszty składają się poza wytworzeniem oprogramowania, jego utrzymanie. Każda z akcji (taka jak zakup czy odnowienie) jest przeliczona na koszt operacji, serwerowy, wsparcia. W praktyce najczęściej jest tak, że im większe obroty na koszyku sprzedawcy, tym więcej takich akcji jest do wykonania. Przy opłatach stałych, plany na ogół muszą być ułożone tak, że mniejsi sprzedawcy biorą na siebie część kosztów tych większych. Przy prowizji, nie ma to miejsca - to najbardziej uczciwy model.
 
-Po drugie, sprawia on, że Twoje i nasze cele są zbieżne. Po prostu - jeśli Ty zarabiasz, my zarabiamy. To determinuje nasze wartości i wynikają z tego kampanie promocyjne, które prowadzimy dla sprzedających w naszych social media, serwis z najlepszymi ofertami i promocjami i wiele więcej. Przy stałej opłacie brakuje bezpośredniej motywacji, aby pomagać klientom sprzedawać - my ją mamy. Jeśli zarobisz więcej, my zarobimy więcej. Gramy w jednej drużynie!
+## Koszty
+
+Na nasze koszty składają się poza wytworzeniem oprogramowania, jego utrzymanie.
+Każda z akcji (taka jak zakup czy odnowienie) jest przeliczona na koszt operacji, serwerowy, wsparcia. 
+ 
+Przy opłatach stałych, plany na ogół muszą być ułożone tak, że mniejsi sprzedawcy biorą na siebie część kosztów tych większych. 
+Przy prowizji, nie ma to miejsca - to najbardziej uczciwy model.
+
+## Wspólne cele
+Po drugie, sprawia on, że Twoje i nasze cele są zbieżne. Po prostu - jeśli Ty zarabiasz, my zarabiamy. 
+To determinuje nasze wartości i wynikają z tego kampanie promocyjne, które prowadzimy dla sprzedających w media.
+Jeśli zarobisz więcej, my zarobimy więcej. Gramy w jednej drużynie!

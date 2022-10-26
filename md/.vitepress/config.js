@@ -37,21 +37,22 @@ export default defineConfig({
             //{text: 'Home', link: '/'},
             {text: 'Start', link: '/app/start'},
             {text: 'Early Access', link: '/app/access'},
+            {text: 'Pricing (2023)', link: '/offer/pricing'},
             {text: 'Status', link: '/about/status'},
-            {text: 'Video', link: '/about/video'},
             //{text: 'Our Story', link: '/about/story'},
             //{text: 'Team & Partners', link: '/about/team'},
+            //{text: 'Contact', link: 'https://www.linkedin.com/in/tom-sapletta-com/'},
+            //{text: 'Start', link: '/user/registration'},
+            {text: 'Contact', link: '/user/contact'},
             {
                 text: 'Documentation',
                 items: [
+                    {text: 'Video', link: '/about/video'},
                     {text: 'docs.dialogware.com', link: 'https://docs.dialogware.com/'},
                     {text: 'Roadmap on github', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
                     {text: 'Tasks on github', link: 'https://github.com/orgs/dialogware/projects/1/views/1'}
                 ]
             },
-            //{text: 'Contact', link: 'https://www.linkedin.com/in/tom-sapletta-com/'},
-            //{text: 'Start', link: '/user/registration'},
-            {text: 'Contact', link: '/user/contact'},
 
         ],
         /*
