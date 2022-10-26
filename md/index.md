@@ -1,5 +1,5 @@
 
-Build any software in a few minutes with simple steps:
+Build any software in a few minutes with that simple steps:
 
 + catch the Idea
 + write description
