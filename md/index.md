@@ -73,7 +73,7 @@ const partners = [
     name: 'Ionos',
     title: 'Service provider',
     links: [
-      { icon: 'website', link: 'https://www.ionos.de' }
+      { icon: 'linkedin', link: 'https://www.ionos.de' }
     ]
   },
  {
@@ -81,7 +81,7 @@ const partners = [
     name: 'softreck.com',
     title: 'DevOps',
     links: [
-       { icon: 'website', link: 'https://softreck.pl' }
+       { icon: 'linkedin', link: 'https://softreck.pl' }
     ]
   }
 ]
