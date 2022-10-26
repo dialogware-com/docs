@@ -31,8 +31,3 @@ We are on [Pioneer](https://pioneer.app/join/dialogware.com)
 + text2api
 + domain-specific language
 
-
----
-
-+ [github: dialogware/www](https://github.com/dialogware/www)
-
