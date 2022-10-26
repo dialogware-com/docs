@@ -65,7 +65,7 @@ function send() {
     } else {
         warning_message.value = false
     
-        var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
+        var API_URL = `https://email.dialogware.com/?type=REGISTRATION&name=${name.value}&message=${message.value}&email=${email.value}`
         //const API_URL = `https://email.dialogware.com/`
         
         fetch(

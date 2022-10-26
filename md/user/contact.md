@@ -43,7 +43,7 @@ function send() {
         warning_message.value = false
         //error_message.value = true
     
-        var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
+        var API_URL = `https://email.dialogware.com/?type=QUESTION&name=${name.value}&message=${message.value}&email=${email.value}`
         //const API_URL = `https://email.dialogware.com/`
         
         fetch(
