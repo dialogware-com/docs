@@ -1,12 +1,10 @@
 
+Build the software in minutes with [DIALOGWARE](http://www.dialogware.com/) 
+
++ just catch the Idea, write description and deploy as an application.
+
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
-
-# [ABOUT DIALOGWARE](https://github.com/dialogware/www/blob/main/DOCS/ABOUT.md) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/dialogware/www/edit/main/DOCS/ABOUT.md)
-
-build the software in minutes with [DIALOGWARE](http://www.dialogware.com/) 
-
-Imagine, write and deploy your application.
 We provide a platform [#text2software](https://www.text2software.com/)
 to prepare your first MVP application in a minutes.
 After you answer on our questions with few sentences of your expectation, we will deploy your first MVP version of web/mobile application.
