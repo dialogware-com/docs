@@ -39,7 +39,7 @@ function send() {
         warning_message.value = true
     } else {
         warning_message.value = false
-        error_message.value = true
+        //error_message.value = true
     
     
         var API_URL = `https://email.dialogware.com/?name=${name.value}&message=${message.value}&email=${email.value}`
