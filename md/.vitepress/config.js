@@ -75,7 +75,7 @@ export default defineConfig({
         },
         footer: {
             //message: 'Released under the  <a href="https://github.com/dialogware/www/blob/main/LICENSE">Apache License</a>.',
-            copyright: 'Copyright © 2023  <a href="https://softreck.com" >Softreck</a>'
+            copyright: '© 2023  <a href="https://softreck.com" >Softreck</a>. All rights reserved.'
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/dialogware/www' },
