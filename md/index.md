@@ -91,7 +91,8 @@ const info_message = ref(false)
 const email_form = ref(true)
 
 function send() {
-    message.value="NEWSLETTER"
+    //message.value="NEWSLETTER"
+    message.value="Thank You " + name.value + " for a registration on DIALOGWARE NEWSLETTER."
     error_message.value = false
     warning_message.value = false
     if ( 
@@ -114,7 +115,6 @@ function send() {
             email.value = data.email
             text.value = data.text
             name.value = data.name
-            message.value="Thank You " + data.name + " for a registration on DIALOGWARE NEWSLETTER."
 
             if(data.found > 5){
                 error_message.value = true
