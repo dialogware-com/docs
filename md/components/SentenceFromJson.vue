@@ -29,15 +29,15 @@ export default {
 
     <p class="label">Sentence Processed:</p>
     <div class="processed">
-      <p class="input">
+      <p class="get_input">
         <span class="title">INPUT: </span>
         <span class="part">{{ sentence.input }}</span>
       </p>
-      <p class="process">
+      <p class="get_process">
         <span class="title">PROCESS: </span>
         <span class="part">{{ sentence.process }}</span>
       </p>
-      <p class="output">
+      <p class="get_output">
         <span class="title">OUTPUT: </span>
         <span class="part">{{ sentence.output }}</span>
       </p>
@@ -101,9 +101,9 @@ div.sentence {
 }
 
 .sentence .dsl .title,
-.sentence .input .title,
-.sentence .output .title,
-.sentence .process .title {
+.sentence .get_input .title,
+.sentence .get_output .title,
+.sentence .get_process .title {
   color: gray;
   font-size: small;
 }
