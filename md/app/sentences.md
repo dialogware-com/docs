@@ -10,5 +10,4 @@ lang: en-US
 import SentenceFromJson from '/components/SentenceFromJson.vue'
 </script>
 
-
 <SentenceFromJson />
