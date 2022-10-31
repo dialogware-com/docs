@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "url": "?#/",
+    "url": "#sentence1",
     "text": "Load [file]. Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device. Save each [screenshot] to [file] in format [png].",
     "input": "Load [file]",
     "process": "Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "url": "?",
+    "url": "#sentence2",
     "text": "Load [file]. Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device. Save each [screenshot] to [file] in format [png].",
     "input": "Load [file]",
     "process": "Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "url": "?/",
+    "url": "#sentence3",
     "text": "Load [file]. Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device. Save each [screenshot] to [file] in format [png].",
     "input": "Load [file]",
     "process": "Load each line as URL and make a [screenshots] in [tiny] resolution on [mobile] device",

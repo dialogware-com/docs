@@ -19,44 +19,46 @@ export default {
 
 <template>
   <div class="sentence" v-for="sentence in sentences">
+    <div id="sentence{{sentence.id}}">
 
-    <a class="url" href="{{ sentence.url }}">
-      <p class="biglabel">Sentence no. {{ sentence.id }}</p>
-    </a>
-    <p class="label">Editing:</p>
-    <dev class="edit">
-      <textarea>{{ sentence.text }}</textarea>
-    </dev>
+      <a class="url" :href="sentence.url">
+        <p class="biglabel">Sentence no. {{ sentence.id }}</p>
+      </a>
+      <p class="label">Editing:</p>
+      <dev class="edit">
+        <textarea>{{ sentence.text }}</textarea>
+      </dev>
 
-    <p class="label">Processing:</p>
-    <div class="processed">
-      <p class="get_input">
-        <span class="title">INPUT: </span>
-        <span class="part">{{ sentence.input }}</span>
+      <p class="label">Processing:</p>
+      <div class="processed">
+        <p class="get_input">
+          <span class="title">INPUT: </span>
+          <span class="part">{{ sentence.input }}</span>
+        </p>
+        <p class="get_process">
+          <span class="title">PROCESS: </span>
+          <span class="part">{{ sentence.process }}</span>
+        </p>
+        <p class="get_output">
+          <span class="title">OUTPUT: </span>
+          <span class="part">{{ sentence.output }}</span>
+        </p>
+      </div>
+
+      <p class="label">Translation:</p>
+      <span class="description">Sentence is translated from TEXT to DSL:</span>
+      <p class="dsl">
+        <span class="part">{{ sentence.dsl }}</span>
       </p>
-      <p class="get_process">
-        <span class="title">PROCESS: </span>
-        <span class="part">{{ sentence.process }}</span>
-      </p>
-      <p class="get_output">
-        <span class="title">OUTPUT: </span>
-        <span class="part">{{ sentence.output }}</span>
-      </p>
+
+      <p class="label">Deployment:</p>
+      <span class="description">Start the script local and remote over shell:</span>
+
+      <div class="installation">
+        <textarea>{{ sentence.installation }}</textarea>
+      </div>
+
     </div>
-
-    <p class="label">Translation:</p>
-    <span class="description">Sentence is translated from TEXT to DSL:</span>
-    <p class="dsl">
-      <span class="part">{{ sentence.dsl }}</span>
-    </p>
-
-    <p class="label">Deployment:</p>
-    <span class="description">Start the script local and remote over shell:</span>
-
-    <dev class="installation">
-      <textarea>{{ sentence.installation }}</textarea>
-    </dev>
-
   </div>
 </template>
 
@@ -73,13 +75,16 @@ export default {
 .sentence .biglabel {
   font-size: 15pt;
 }
+
 .processed p {
   line-height: normal;
   margin: 2px 0 2px 0;
 }
+
 .processed {
   margin-bottom: 15px;
 }
+
 div.sentence {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -87,6 +92,7 @@ div.sentence {
   padding-right: 5px;
   border: solid 3px;
 }
+
 div.sentence:hover {
   border: solid 3px;
 }
@@ -94,9 +100,11 @@ div.sentence:hover {
 
 .sentence .text {
 }
+
 .sentence .description {
   font-size: small;
 }
+
 .sentence .part {
   font-size: small;
 }
@@ -129,6 +137,7 @@ div.sentence:hover {
   margin-top: 15px;
 
 }
+
 .sentence .edit textarea {
   font-family: monospace, courier;
   width: 100%;
@@ -146,12 +155,15 @@ div.sentence:hover {
 .sentence .installation {
   color: black;
 }
+
 div.sentence:hover {
   border-color: #eeeeee;
 }
+
 div.sentence {
   border-color: #fafafa;
 }
+
 .sentence .dsl .part {
   color: darkviolet;
 }
@@ -160,6 +172,7 @@ div.sentence {
 .sentence .label {
   color: #eeeeee;
 }
+
 .dark .sentence .dsl .part {
   color: violet;
 
