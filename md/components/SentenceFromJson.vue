@@ -23,11 +23,12 @@ export default {
     <a class="url" href="{{ sentence.url }}">
       <p class="biglabel">Sentence no. {{ sentence.id }}</p>
     </a>
+    <p class="label">Editing:</p>
     <dev class="edit">
       <textarea>{{ sentence.text }}</textarea>
     </dev>
 
-    <p class="label">Sentence Processed:</p>
+    <p class="label">Processing:</p>
     <div class="processed">
       <p class="get_input">
         <span class="title">INPUT: </span>
@@ -43,8 +44,8 @@ export default {
       </p>
     </div>
 
-    <p class="label">Text2DSL:</p>
-    <span class="description">Sentence Converted to DSL:</span>
+    <p class="label">Translation:</p>
+    <span class="description">Sentence is translated from TEXT to DSL:</span>
     <p class="dsl">
       <span class="part">{{ sentence.dsl }}</span>
     </p>
