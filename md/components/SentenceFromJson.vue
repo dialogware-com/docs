@@ -23,7 +23,7 @@ export default {
     <a class="url" href="{{ sentence.url }}">
       <p class="biglabel">Sentence no. {{ sentence.id }}</p>
     </a>
-    <dev class="editor">
+    <dev class="edit">
       <textarea>{{ sentence.text }}</textarea>
     </dev>
 
@@ -129,7 +129,7 @@ div.sentence {
 
 }
 
-.sentence .editor textarea {
+.sentence .edit textarea {
   font-family: monospace, courier;
   width: 100%;
   height: 50px;
