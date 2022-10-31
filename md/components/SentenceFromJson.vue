@@ -128,11 +128,10 @@ div.sentence:hover {
   margin-top: 15px;
 
 }
-
 .sentence .edit textarea {
   font-family: monospace, courier;
   width: 100%;
-  height: 50px;
+  height: 70px;
   font-size: small;
   line-height: normal;
 }
