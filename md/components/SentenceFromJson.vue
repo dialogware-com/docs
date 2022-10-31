@@ -79,17 +79,17 @@ export default {
 .processed {
   margin-bottom: 15px;
 }
-div.sentence:hover {
-  border: solid 3px;
-}
-
 div.sentence {
-  margin-top: 9px;
-  margin-bottom: 9px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding-left: 5px;
   padding-right: 5px;
   border: solid 3px;
 }
+div.sentence:hover {
+  border: solid 3px;
+}
+
 
 .sentence .text {
 }
