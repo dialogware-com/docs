@@ -28,3 +28,6 @@ Jeśli używacie serwer wszyscy zyskują, wy automatyzację, my rozlcizeniu za k
 To determinuje kolejne kroki w celu optymalizacji kosztów.
 Jeśli zarobisz więcej, my zarobimy więcej. 
 Gramy w jednej drużynie!
+
+
+<iframe width='100%' height='750px' src='https://tomsapletta-softreck.zohobookings.eu/portal-embed#/customer/137542000000022015' frameborder='0' allowfullscreen='' > </iframe>
