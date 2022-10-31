@@ -58,7 +58,7 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 
 .sentence h2,
 .sentence h3 {
