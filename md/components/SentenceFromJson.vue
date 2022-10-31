@@ -21,12 +21,13 @@ export default {
   <div class="sentence" v-for="sentence in sentences">
 
     <a class="url" href="{{ sentence.url }}">
-      <h2 class="text">Sentence no. {{ sentence.id }}</h2>
+      <p class="biglabel">Sentence no. {{ sentence.id }}</p>
     </a>
     <dev class="editor">
       <textarea>{{ sentence.text }}</textarea>
     </dev>
-    <h3>Sentence Processed:</h3>
+
+    <p class="label">Sentence Processed:</p>
     <div class="processed">
       <p class="input">
         <span class="title">INPUT: </span>
@@ -41,13 +42,14 @@ export default {
         <span class="part">{{ sentence.output }}</span>
       </p>
     </div>
-    <h3>Text2DSL:</h3>
+
+    <p class="label">Text2DSL:</p>
     <span class="description">Sentence Converted to DSL:</span>
     <p class="dsl">
       <span class="part">{{ sentence.dsl }}</span>
     </p>
 
-    <h3>Deployment:</h3>
+    <p class="label">Deployment:</p>
     <span class="description">Start the script local and remote over shell:</span>
 
     <dev class="installation">
@@ -60,14 +62,15 @@ export default {
 
 <style scoped>
 
-.sentence h2,
-.sentence h3 {
+.sentence .biglabel,
+.sentence .label {
   margin: 0;
   padding: 0;
+  font-weight: bolder;
 }
 
-.sentence h3 {
-  color: gray;
+.sentence .biglabel {
+  font-size: 15pt;
 }
 .processed p {
   line-height: normal;
@@ -136,6 +139,10 @@ div.sentence {
 
 
 /** WHITE **/
+.sentence .label {
+  color: gray;
+}
+
 .sentence .installation {
   color: black;
 }
@@ -150,6 +157,9 @@ div.sentence {
 }
 
 /** DARK **/
+.sentence .label {
+  color: #eeeeee;
+}
 .dark .sentence .dsl .part {
   color: violet;
 
