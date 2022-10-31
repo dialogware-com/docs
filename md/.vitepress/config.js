@@ -35,7 +35,7 @@ export default defineConfig({
         siteTitle: 'DIALOGWARE', // When adding a logo, it gets displayed along with the site title. If your logo is all you need and if you would like to hide the site title text, set false to the siteTitle option.
         nav: [
             //{text: 'Home', link: '/'},
-            {text: 'Start', link: '/app/start'},
+            //{text: 'Start', link: '/app/start'},
             {text: 'Early Access', link: '/app/access'},
             {text: 'Examples', link: '/app/sentences'},
             //{text: 'Pricing (2023)', link: '/offer/pricing'},
