@@ -14,7 +14,7 @@ const email_form = ref(true)
 
 function newsletter() {
   //message.value="NEWSLETTER"
-  name.value = "Anonym"
+  name.value = "DIALOGWARE-ian"
   message.value = "Thank You  for a registration on DIALOGWARE NEWSLETTER."
   //message.value = "Thank You " + name.value + " for a registration on DIALOGWARE NEWSLETTER."
   error_message.value = false
