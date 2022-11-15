@@ -58,12 +58,14 @@ function newsletter() {
 
   <div class="newsletter">
 
-    <form method="get" class="email_form" id="email_form" v-if="email_form">
+    <form method="get" class="email_form" id="email_form" v-if="email_form" action="#" onsubmit="return false;">
+
       <div>
         <fieldset>
           <input v-model="email" placeholder="@"/>
         </fieldset>
       </div>
+
 
       <div v-if="email_form">
         <fieldset class="button_send">
