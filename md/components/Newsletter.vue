@@ -14,7 +14,9 @@ const email_form = ref(true)
 
 function newsletter() {
   //message.value="NEWSLETTER"
-  message.value = "Thank You " + name.value + " for a registration on DIALOGWARE NEWSLETTER."
+  name.value = "Anonym"
+  message.value = "Thank You  for a registration on DIALOGWARE NEWSLETTER."
+  //message.value = "Thank You " + name.value + " for a registration on DIALOGWARE NEWSLETTER."
   error_message.value = false
   warning_message.value = false
   if (
@@ -57,33 +59,19 @@ function newsletter() {
   <div class="newsletter">
 
     <form method="get" class="email_form" id="email_form" v-if="email_form">
-
       <div>
         <fieldset>
-          <label>
-            <div>Name:</div>
-            <input v-model="name" placeholder="name">
-          </label>
+          <input v-model="email" placeholder="@"/>
         </fieldset>
-
-
-        <fieldset>
-          <label>
-            <div>E-mail:</div>
-            <input v-model="email" placeholder="@"/>
-          </label>
-        </fieldset>
-
       </div>
-    </form>
 
-    <div v-if="email_form">
-      <fieldset class="button_send">
-        <p>
-          <button @click="newsletter">get updates about project</button>
-        </p>
-      </fieldset>
-    </div>
+      <div v-if="email_form">
+        <fieldset class="button_send">
+          <button @click="newsletter">Subscribe</button>
+        </fieldset>
+      </div>
+
+    </form>
 
 
     <div class="tip custom-block info_message" v-if="info_message">
@@ -109,8 +97,9 @@ function newsletter() {
 <style scoped>
 
 .newsletter {
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: left;
+
 }
 
 .email_form {
@@ -119,13 +108,24 @@ function newsletter() {
   justify-content: left;
 }
 
+.email_form input {
+  padding: 4px;
+  margin: 4px;
+}
+
+
 .email_form input,
-.email_form textarea,
-.button_send,
-button,
+.tip,
+.warning {
+  height: 40px;
+}
+
+.email_form input,
 .tip,
 .warning {
   width: 300px;
+
+  font-size: 25px;
 }
 
 fieldset {
@@ -133,12 +133,15 @@ fieldset {
 }
 
 button {
+  font-size: 30px;
   font-weight: bold;
-  color: gray;
+  color: rgb(66, 184, 131);
   background-color: black;
-  padding: 5px;
-  border: 1px solid white;
+  padding: 4px;
+  height: 40px;
+  border: 1px solid yellowgreen;
 }
+
 
 input, textarea {
   color: white;

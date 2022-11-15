@@ -61,7 +61,7 @@ const coreMembers = [
 
 const partners = [
   {
-    avatar: '/assets/ionos.png',
+    avatar: '/img/ionos.png',
     name: 'Ionos',
     title: 'Service provider',
     links: [
