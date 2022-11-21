@@ -7,6 +7,7 @@
 #cp -fv README.md md/index.md
 yarn build || exit
 cp -f -r md/.vitepress/dist/* .
+cp -f -r md/img/* ./img
 #rm README.md
 
 MESSAGE=$1
