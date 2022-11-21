@@ -49,7 +49,8 @@ export default defineConfig({
             {
                 text: 'Documentation',
                 items: [
-                    {text: 'Video', link: '/about/video'},
+                    //{text: 'Video', link: '/about/video'},
+                    {text: 'text2software.com', link: 'https://www.text2software.com/'},
                     {text: 'docs.dialogware.com', link: 'https://docs.dialogware.com/'},
                     {text: 'Roadmap on github', link: 'https://github.com/orgs/dialogware/projects/2/views/1'},
                     {text: 'Tasks on github', link: 'https://github.com/orgs/dialogware/projects/1/views/1'}

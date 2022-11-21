@@ -6,31 +6,48 @@ lang: en-US
 
 # [DIALOGWARE](http://www.dialogware.com/)
 
-Build any software in a few minutes with that simple steps:
+Build any software in minutes with these simple steps:
 
-+ catch the Idea
-+ write description
-+ deploy with a click
-+ use your app online
++ grab the "Idea"
++ describe it
++ implement it with a single click
++ use your application
 
-We provide a platform [#text2software](https://www.text2software.com/)
-to prepare your first MVP application in a minutes.
+**DIALOGWARE** is a [#text2software](https://www.text2software.com/)
+platform for building your first MVP application in minutes.
 
 [![DIALOGWARE](http://logo.dialogware.com/dialogware-2lines.png)](http://www.dialogware.com/)
 
-After you answer on our questions with few sentences of your expectation, we will deploy your first MVP version of
-web/mobile application.
-It's much cheaper and easy way than no-code or low-code solutions.
+## How it work's?
+
+After you have answered our questions with a few sentences about your expectations, 
+you will implement your first MVP version of a web/mobile application yourself 
+and within minutes rather than weeks.
+This is a much cheaper and easier way than no-code or low-code solutions.
+
+## Benefits?
 
 With such automatization, you can save more time and money than with another solutions such #lowcode or #nocode.
 We "twitterize" the software development and will build any software just with the (con)text (specification,
 documentation).
 
-Please find more details in [Documentation](http://docs.dialogware.com/)
+## Examples:
 
-We are on [Pioneer](https://pioneer.app/join/dialogware.com)
+Please find more details about desktop application: [Desktop Application](https://www.dialogware.com/app/desktop.html)
 
+![dialogware-opened-tab.png](https://img.dialogware.com/dialogware-opened-tab.png)
 
+The first version of desktop application for linux OS is available on:
+[download.dialogware.com](http://download.dialogware.com/dialogware.apk)
+
+## Why DIALOGWARE?
+We are the first global text2software provider!
+We are appreciated on [Pioneer](https://pioneer.app/join/dialogware.com) voting platform.
+Our impressive progress every week bring us among 30 startups out of hundreds of participants. 
+
+We prepared video review on youtube: [DIALOGWARE Review #1 - desktop app + api - 14.11.2022 - YouTube](https://www.youtube.com/watch?v=ngjRjYnQ2qw)
+
+<video controls="controls" src="https://www.dialogware.com/DIALOGWARE-Review-1-desktop app+api-14.11.2022.mp4" />
 
 <script setup>
 import {
