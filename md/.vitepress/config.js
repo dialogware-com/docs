@@ -31,7 +31,7 @@ export default defineConfig({
         lang: 'en-US',
         title: 'DIALOGWARE',
         description: 'Text to Software solution to build a web application in minutes',
-        logo: '/img/dialogware-2lines.png',
+        logo: 'https://img.dialogware.com/dialogware-2lines.png',
         siteTitle: 'DIALOGWARE', // When adding a logo, it gets displayed along with the site title. If your logo is all you need and if you would like to hide the site title text, set false to the siteTitle option.
         nav: [
             //{text: 'Home', link: '/'},

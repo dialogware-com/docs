@@ -46,7 +46,7 @@ const coreMembers = [
 
 const partners = [
   {
-    avatar: '/img/ionos.png',
+    avatar: 'https://img.dialogware.com/ionos.png',
     name: 'Ionos',
     title: 'Service provider',
     links: [
