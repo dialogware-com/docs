@@ -6,15 +6,21 @@ lang: en-US
 
 # {{ $frontmatter.title }}
 
-first version of desktop application for linux OS is available on:
-[download.dialogware.com](http://download.dialogware.com/dialogware.apk)
+The first version of desktop application is ready for linux OS and is available for download:
+[dialogware_amd64.deb](https://download.dialogware.com/dialogware_amd64.deb)
+
+## Preparation to install Dialogware
+
 ```bash
-curl -O http://download.dialogware.com/dialogware.apk
+mkdir dialogware
+cd dialogware
+curl -O https://download.dialogware.com/dialogware_amd64.deb
+chmod +rwx dialogware_amd64.deb
 ```
-start application
-```bash
-dialogware.apk 
-```
+
+It was tested on PopOs with Eddy, Eddy is a simple Debian package management GUI tool in Elementary OS that allows installation of Debian packages by dragging and dropping  Debian files onto a GUI window.
+[Install Debian Packages on Elementary OS with Eddy GUI Tool](https://linoxide.com/eddy-install-debian-packages-elementary/)
+
 
 ### Tabs View with sentences downloaded DSL instruction 
 ![dialogware-tabs.png](https://img.dialogware.com/dialogware-tabs.png)
