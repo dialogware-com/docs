@@ -6,7 +6,7 @@ lang: en-US
 
 # [DIALOGWARE](http://www.dialogware.com/)
 
-Build any software in minutes with these simple steps:
+## Build any software in minutes with these simple steps
 
 + grab the "Idea"
 + describe it
@@ -21,24 +21,22 @@ platform for building your first MVP application in minutes.
 ## How it work's?
 
 After you have answered our questions with a few sentences about your expectations, 
-you will implement your first MVP version of a web/mobile application yourself 
-and within minutes rather than weeks.
-This is a much cheaper and easier way than no-code or low-code solutions.
+you will implement your first MVP version of a web/mobile application yourself and within minutes rather than weeks.
+
 
 ## Benefits?
 
-With such automatization, you can save more time and money than with another solutions such #lowcode or #nocode.
-We "twitterize" the software development and will build any software just with the (con)text (specification,
-documentation).
+This is a much cheaper and easier way than no-code or low-code solutions, you can save much more time and money than today.
+We "twitterize" the software development and will build any software just with the (con)text of description, specification, documentation...
 
-## Examples:
+## Try it!
+
+Our demo version is currently available only for linux distributions on desktop: [download.dialogware.com](http://download.dialogware.com/)
 
 Please find more details about desktop application: [Desktop Application](https://www.dialogware.com/app/desktop.html)
 
 ![dialogware-opened-tab.png](https://img.dialogware.com/dialogware-opened-tab.png)
 
-The first version of desktop application for linux OS is available on:
-[download.dialogware.com](http://download.dialogware.com/)
 
 ## Why DIALOGWARE?
 We are the first global text2software provider!
