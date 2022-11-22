@@ -38,7 +38,7 @@ Please find more details about desktop application: [Desktop Application](https:
 ![dialogware-opened-tab.png](https://img.dialogware.com/dialogware-opened-tab.png)
 
 The first version of desktop application for linux OS is available on:
-[download.dialogware.com](http://download.dialogware.com/dialogware.apk)
+[download.dialogware.com](http://download.dialogware.com/)
 
 ## Why DIALOGWARE?
 We are the first global text2software provider!
