@@ -49,11 +49,11 @@ Our impressive progress every week bring us among 30 startups out of hundreds of
 
 ### [Video presentation](https://www.dialogware.com/about/review.html)
 
-Please find more details on our video presentation [DIALOGWARE Review #1 - desktop app + api - 14.11.2022 - YouTube](https://www.youtube.com/watch?v=ngjRjYnQ2qw)
+Please find more details about DIALOGWARE Review on our video presentation 
 
-* today Polish version in the January 2023 will be available English version
+<video controls="controls" src="https://www.dialogware.com/DIALOGWARE-Review-2--29-11-2022.mp4" />
 
-<video controls="controls" src="https://www.dialogware.com/DIALOGWARE-Review-1-desktop app+api-14.11.2022.mp4" />
+
 
 + [Project Review](https://www.dialogware.com/about/review.html)
 
