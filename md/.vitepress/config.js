@@ -40,6 +40,7 @@ export default defineConfig({
             {text: 'Desktop Application', link: '/app/desktop'},
             //{text: 'Examples', link: '/app/sentences'},
             //{text: 'Pricing (2023)', link: '/offer/pricing'},
+            {text: 'Review', link: '/about/review'},
             {text: 'Status', link: '/about/status'},
             //{text: 'Our Story', link: '/about/story'},
             //{text: 'Team & Partners', link: '/about/team'},

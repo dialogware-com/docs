@@ -29,13 +29,14 @@ you will implement your first MVP version of a web/mobile application yourself a
 This is a much cheaper and easier way than no-code or low-code solutions, you can save much more time and money than today.
 We "twitterize" the software development and will build any software just with the (con)text of description, specification, documentation...
 
+
 ## Try it!
 
 Our demo version is currently available only for linux distributions on desktop: [download.dialogware.com](http://download.dialogware.com/)
 
 Please find more details about desktop application: [Desktop Application](https://www.dialogware.com/app/desktop.html)
 
-![dialogware-opened-tab.png](https://img.dialogware.com/dialogware-opened-tab.png)
+![dialogware-opened-tab.png](https://img.dialogware.com/animation.png)
 
 
 ## Why DIALOGWARE?
