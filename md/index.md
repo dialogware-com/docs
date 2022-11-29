@@ -47,7 +47,7 @@ We are appreciated on [Pioneer](https://pioneer.app/join/dialogware.com) voting 
 
 Our impressive progress every week bring us among 30 startups out of hundreds of participants. 
 
-### video presentation 
+### Video presentation 
 
 Please find more details on our video presentation [DIALOGWARE Review #1 - desktop app + api - 14.11.2022 - YouTube](https://www.youtube.com/watch?v=ngjRjYnQ2qw)
 
