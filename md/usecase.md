@@ -2,7 +2,9 @@
 
 Dialogware is a unique platform that enables companies to quickly create and deploy their own Proof of Concept (PoC) in hours, minutes or even seconds. It provides an intuitive interface for non-technical users to easily define their PoC using text-based instructions, which are then converted into software. The resulting PoC can then be tested and used by customers to evaluate the product or service.
 
-Dialogware also allows companies to customize their PoC solutions to match the customer's needs. This makes it an ideal platform for quickly testing out new features, launching products into new markets, and providing customers with a unique and personalized experience. With Dialogware, companies can create and deliver a high-quality PoC quickly and cost-effectively.
+Dialogware also allows companies to customize their PoC solutions to match the customer's needs. This makes it an ideal platform for quickly testing out new features, launching products into new markets, and providing customers with a unique and personalized experience.
+
+With Dialogware, companies can create and deliver high quality PoCs reducing execution time and costs by 90%.
 
 
 ## Use Case 
@@ -55,7 +57,9 @@ We choose another way, where the customer can define and deploy the PoC from ide
 
 Dialogware to unikalna platforma, która umożliwia firmom szybkie stworzenie i wdrożenie własnego Proof of Concept (PoC) w ciągu godzin, minut, a nawet sekund. Zapewnia intuicyjny interfejs dla nietechnicznych użytkowników, aby łatwo zdefiniować swój PoC za pomocą instrukcji tekstowych, które są następnie przekształcane w oprogramowanie. Powstały PoC może być następnie przetestowany i wykorzystany przez klientów do oceny produktu lub usługi.
 
-Dialogware pozwala również firmom dostosować swoje rozwiązania PoC do potrzeb klienta. To sprawia, że jest to idealna platforma do szybkiego testowania nowych funkcji, wprowadzania produktów na nowe rynki i dostarczania klientom unikalnych i spersonalizowanych doświadczeń. Z Dialogware, firmy mogą stworzyć i dostarczyć wysokiej jakości PoC szybko i efektywnie kosztowo.
+Dialogware pozwala również firmom dostosować swoje rozwiązania PoC do potrzeb klienta. To sprawia, że jest to idealna platforma do szybkiego testowania nowych funkcji, wprowadzania produktów na nowe rynki i dostarczania klientom unikalnych i spersonalizowanych doświadczeń. 
+
+Z Dialogware, firmy mogą stworzyć i dostarczyć wysokiej jakości PoC obniżając czas wykonania i koszty o 90%.
 
 
 
