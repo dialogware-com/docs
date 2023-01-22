@@ -68,22 +68,22 @@ table th {
 
  Project          | Description                                                                                        | More ...                                                                 
 ------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------
- **DialogSchema** | Schema to create a conversation                                                                    | [www](http://www.DialogSchema.com), [docs](http://docs.DialogSchema.com) 
- **DialogMap**    | Map of dialog generated through conversation based on dialogSchema File format for shell execution | [www](http://www.DialogMap.com) [docs](http://docs.DialogMap.com)        
- **DialogChain**  | CHain of dialogs based on blockchain                                                               | [www](http://www.DialogChain.com), [docs](http://docs.DialogChain.com)   
+ **DialogSchema** | Schema to create a conversation as DialogMap file                                                  | [www](http://www.DialogSchema.com), [docs](http://docs.DialogSchema.com) 
+ **DialogMap**    | Map of dialog generated through conversation based on dialogSchema File format for shell execution | [www](http://www.DialogMap.com), [docs](http://docs.DialogMap.com)        
+ **DialogChain**  | DialogMap files archived in blockchain, history of transactions based on blockchain                | [www](http://www.DialogChain.com), [docs](http://docs.DialogChain.com)   
 
 ### API Gateway
 
  Project        | Description                         | More ...                                                           
 ----------------|-------------------------------------|--------------------------------------------------------------------
- **apiContext** | nonFree API, convert Text To APIDSL | [API](http://apiContext.com) [docs](http://docs.apiContext.com)    
+ **apiContext** | nonFree API, convert Text To APIDSL | [API](http://apiContext.com), [docs](http://docs.apiContext.com)    
  **deploymat**  | nonFree API, deploy APIDSL          | [www](http://www.deploymat.com), [docs](http://docs.deploymat.com) 
 
 ### SaaS Services
 
  Project          | Description                                                        | More ...                                                                 
 ------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------
- **autoDeployer** | Free Marketplace, one APP per USER                                 | [www](http://www.autoDeployer.com) [docs](http://docs.autoDeployer.com ) 
+ **autoDeployer** | Free Marketplace, one APP per USER                                 | [www](http://www.autoDeployer.com), [docs](http://docs.autoDeployer.com ) 
  **TextToWeb**    | nonFree Marketplace, deployment in browser                         | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)       
  **OneDay.Run**   | nonFree deployment environment per user, deployment local with app | [www](http://www.OneDay.Run), [docs](http://docs.OneDay.Run)             
  **coDialog**     | multichat app                                                      | [www](http://www.coDialog.com), [docs](http://docs.coDialog.com)         
@@ -92,9 +92,9 @@ table th {
 
  Project        | Description                                          | More ...                                                                                                   
 ----------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------
- **PoLoShell**  | AI powered shell, deploy on local system in terminal | [www](http://www.PoLoShell.com), [docs](http://docs.PoLoShell.com), [download](http://docs.PoLoShell.com) 
- **PoLoGoS**    | AI Operating System                                  | [www](http://www.PoLoGoS.com), [docs](http://docs.PoLoGoS.com), [download](http://docs.PoLoShell.com)     
- **OneDay.Run** | App to deployment local on pc                        | [www](http://www.OneDay.Run),  [docs](http://docs.OneDay.Run),                                                                            
+ **PoLoShell**  | AI powered shell, deploy on local system in terminal | [www](http://www.PoLoShell.com), [docs](http://docs.PoLoShell.com), [download](http://download.PoLoShell.com) 
+ **PoLoGoS**    | AI Operating System                                  | [www](http://www.PoLoGoS.com), [docs](http://docs.PoLoGoS.com), [download](http://download.PoLoShell.com)     
+ **OneDay.Run** | App to deployment local on pc                        | [www](http://www.OneDay.Run),  [docs](http://docs.OneDay.Run)                                                                            
 
 <script setup>
 import {
