@@ -64,37 +64,52 @@ table th {
 
 ## Dialogware ecosystem
 
+### SaaS Services
+
+ Project          | Description                                                                                                  | More ...                                                                  | cost 
+------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|------
+ **autoDeployer** | Free Marketplace, one APP per USER                                                                           | [www](http://www.autoDeployer.com), [docs](http://docs.autoDeployer.com ) | cost 
+ **TextToWeb**    | nonFree www Marketplace, to deploy in browser on over **deploymat**                                          | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | free 
+ **DialoGet**     | nonFree remote Marketplace, to deploy on external machines                                                   | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | free 
+ **OneDay.Run**   | nonFree local Marketplace, deployment environment per user, deployment local with **OneDay.Run** desktop app | [www](http://www.OneDay.Run), [docs](http://docs.OneDay.Run)              | free 
+ **coDialog**     | multichat app with openAI, dialogware, jasper, ... solutions                                                 | [www](http://www.coDialog.com), [docs](http://docs.coDialog.com)          | free 
+
 ### Libraries
 
- Project          | Description                                                                                        | More ...                                                                 
-------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------
- **DialogSchema** | Schema to create a conversation as DialogMap file                                                  | [www](http://www.DialogSchema.com), [docs](http://docs.DialogSchema.com) 
- **DialogMap**    | Map of dialog generated through conversation based on dialogSchema File format for shell execution | [www](http://www.DialogMap.com), [docs](http://docs.DialogMap.com)        
- **DialogChain**  | DialogMap files archived in blockchain, history of transactions based on blockchain                | [www](http://www.DialogChain.com), [docs](http://docs.DialogChain.com)   
+ Project          | Description                                                                                            | More ...                                                                                                               | licence     
+------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------------
+ **DialogSchema** | Schema to create a conversation as **DialogMap** file                                                  | [www](http://www.DialogSchema.com), [docs](http://docs.DialogSchema.com), [download](http://download.DialogSchema.com) | open source 
+ **DialogMap**    | Map of dialog generated through conversation based on **DialogSchema** file format for shell execution | [www](http://www.DialogMap.com), [docs](http://docs.DialogMap.com), [download](http://download.DialogMap.com)          | open source 
+ **DialogChain**  | **DialogMap** files archived in blockchain, history of transactions based on blockchain                | [www](http://www.DialogChain.com), [docs](http://docs.DialogChain.com)                                                 | open source 
+ **APIDSL**       | Domain Specific/language to deployment purposes, to build modular applications                         | [www](http://www.apidsl.com), [docs](http://docs.apidsl.com), [download](http://download.apidsl.com)                   | open source 
 
 ### API Gateway
 
- Project        | Description                         | More ...                                                           
-----------------|-------------------------------------|--------------------------------------------------------------------
- **apiContext** | nonFree API, convert Text To APIDSL | [API](http://apiContext.com), [docs](http://docs.apiContext.com)    
- **deploymat**  | nonFree API, deploy APIDSL          | [www](http://www.deploymat.com), [docs](http://docs.deploymat.com) 
-
-### SaaS Services
-
- Project          | Description                                                        | More ...                                                                 
-------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------
- **autoDeployer** | Free Marketplace, one APP per USER                                 | [www](http://www.autoDeployer.com), [docs](http://docs.autoDeployer.com ) 
- **TextToWeb**    | nonFree Marketplace, deployment in browser                         | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)       
- **OneDay.Run**   | nonFree deployment environment per user, deployment local with app | [www](http://www.OneDay.Run), [docs](http://docs.OneDay.Run)             
- **coDialog**     | multichat app                                                      | [www](http://www.coDialog.com), [docs](http://docs.coDialog.com)         
+ Project        | Description                             | More ...                                                           | cost           
+----------------|-----------------------------------------|--------------------------------------------------------------------|----------------
+ **apiContext** | nonFree API, convert Text To **APIDSL** | [API](http://apiContext.com), [docs](http://docs.apiContext.com)   | 25$/user/month 
+ **deploymat**  | nonFree API, deploy an **APIDSL** code  | [www](http://www.deploymat.com), [docs](http://docs.deploymat.com) | 25$/user/month 
 
 ### Others
 
- Project        | Description                                          | More ...                                                                                                   
-----------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------
- **PoLoShell**  | AI powered shell, deploy on local system in terminal | [www](http://www.PoLoShell.com), [docs](http://docs.PoLoShell.com), [download](http://download.PoLoShell.com) 
- **PoLoGoS**    | AI Operating System                                  | [www](http://www.PoLoGoS.com), [docs](http://docs.PoLoGoS.com), [download](http://download.PoLoShell.com)     
- **OneDay.Run** | App to deployment local on pc                        | [www](http://www.OneDay.Run),  [docs](http://docs.OneDay.Run)                                                                            
+ Project          | Description                                                            | More ...                                                                                                      | cost 
+------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------
+ **PoLoShell**    | AI powered shell, deploy on local system in terminal                   | [www](http://www.PoLoShell.com), [docs](http://docs.PoLoShell.com), [download](http://download.PoLoShell.com) | free 
+ **PoLoGoS**      | AI Operating System                                                    | [www](http://www.PoLoGoS.com), [docs](http://docs.PoLoGoS.com), [download](http://download.PoLoGoS.com)     | free 
+ **OneDay.Run**   | Desktop Application to deployment local on pc                          | [www](http://www.OneDay.Run),  [docs](http://docs.OneDay.Run)                                                 | free 
+ **dialogStream** | Deployment in the fly in a seconds, in preapration, planned for 2025y. | [www](http://www.dialogStream.Run),  [docs](http://docs.dialogStream.Run)                                     | free 
+
+### Text To * <- Software, Documentation, Code Generators
+
+ Project                                          | Description 
+--------------------------------------------------|-------------
+ [**text to srs**](http://text2software.com)      |
+ [**text to code**](http://text2code.com)         |
+ [**text to software**](http://text2software.com) |
+ [**text to service**](http://text2service.com)   |
+ [**text to apidsl**](http://text2software.com)   |
+ [**text to vue**](http://text2software.com)      |
+ [**text to css**](http://text2software.com)      |
 
 <script setup>
 import {
@@ -108,7 +123,7 @@ const coreMembers = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/5669657?s=96&v=4',
     name: 'Tom Sapletta',
-    title: 'Creator',
+    title: 'Platform Engineer',
     links: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/tom-sapletta-com' }
     ]
