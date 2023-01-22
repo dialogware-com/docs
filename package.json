@@ -1,8 +1,14 @@
 {
   "name": "www-dialogware-com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Documentation for DIALOGWARE",
   "main": "index.js",
+  "author": "Tom Sapletta",
+  "license": "Apache License 2.0",
+  "homepage": "https://github.com/dialogware/www/tree/main/#readme",
+  "bugs": {
+    "url": "https://www.dialogware.com"
+  },
   "scripts": {
     "dev": "vitepress dev md",
     "build": "vitepress build md",
@@ -19,12 +25,7 @@
     "vue",
     "vitepress"
   ],
-  "author": "Tom Sapletta",
-  "license": "Apache License 2.0",
-  "homepage": "https://github.com/dialogware/www/tree/main/#readme",
-  "bugs": {
-    "url": "https://www.dialogware.com"
-  },
+
   "dependencies": {
     "vite": "^3.1.8",
     "vitepress": "*",
