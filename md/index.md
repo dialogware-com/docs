@@ -66,13 +66,13 @@ table th {
 
 ### SaaS Services
 
- Project          | Description                                                                                                                                                       | More ...                                                                  | cost 
-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|------
- **autoDeployer** | ![autoDeployer](http://logo.autoDeployer.com/1/cover.png) Free Marketplace, one APP per USER                                                                      | [www](http://www.autoDeployer.com), [docs](http://docs.autoDeployer.com ) | free 
- **TextToWeb**    | ![TextToWeb](http://logo.TextToWeb.com/1/cover.png) nonFree www Marketplace, to deploy in browser on over **deploymat**                                           | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | free 
- **DialoGet**     | ![DialoGet](http://logo.DialoGet.com/1/cover.png) nonFree remote Marketplace, to deploy on external machines                                                      | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | free 
- **OneDay.Run**   | ![OneDay.Run](http://logo.OneDayRun.com/1/cover.png) nonFree local Marketplace, deployment environment per user, deployment local with **OneDay.Run** desktop app | [www](http://www.OneDay.Run), [docs](http://docs.OneDay.Run)              | free 
- **coDialog**     | ![coDialog](http://logo.coDialog.com/1/cover.png) multichat app with openAI, dialogware, jasper, ... solutions                                                    | [www](http://www.coDialog.com), [docs](http://docs.coDialog.com)          | free 
+ Project          | Description                                                                                                                                                                               | More ...                                                                  | cost        
+------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------
+ **autoDeployer** | ![autoDeployer](http://logo.autoDeployer.com/1/cover.png) Free Marketplace, one APP per USER                                                                                              | [www](http://www.autoDeployer.com), [docs](http://docs.autoDeployer.com ) | free        
+ **TextToWeb**    | ![TextToWeb](http://logo.TextToWeb.com/1/cover.png) Marketplace, to deploy in browser on over **deploymat** all projects as own, pay just for deployment                                  | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | pay for use 
+ **DialoGet**     | ![DialoGet](http://logo.DialoGet.com/1/cover.png) remote Marketplace, to deploy on external machines, cloud, with many own projects, pay for convert and deployment                       | [www](http://www.TextToWeb.com), [docs](http://docs.TextToWeb.com)        | pay for use 
+ **OneDay.Run**   | ![OneDay.Run](http://logo.OneDayRun.com/1/cover.png) local Marketplace, deployment environment per user, deployment local with **OneDay.Run** desktop app, pay for convert and deployment | [www](http://www.OneDay.Run), [docs](http://docs.OneDay.Run)              | pay for use 
+ **coDialog**     | ![coDialog](http://logo.coDialog.com/1/cover.png) multichat app with openAI, dialogware, jasper, ... solutions                                                                            | [www](http://www.coDialog.com), [docs](http://docs.coDialog.com)          | pay for use 
 
 ### Libraries
 
@@ -82,13 +82,7 @@ table th {
  **DialogMap**    | Map of dialog generated through conversation based on **DialogSchema** file format for shell execution                       | [www](http://www.DialogMap.com), [docs](http://docs.DialogMap.com), [roadmap](http://roadmap.DialogMap.com), [download](http://download.DialogMap.com), [github](https://github.com/DialogMap)                | open source 
  **DialogChain**  | **DialogMap** files archived in blockchain, history of transactions based on blockchain                                      | [www](http://www.DialogChain.com), [docs](http://docs.DialogChain.com), [roadmap](http://roadmap.DialogChain.com), [github](https://github.com/DialogChain)                                                   | open source 
  **APIDSL**       | ![APIDSL](http://logo.apidsl.com/2/cover.png) Domain Specific/language to deployment purposes, to build modular applications | [www](http://www.apidsl.com), [docs](http://docs.apidsl.com), [roadmap](http://roadmap.apidsl.com), [download](http://download.apidsl.com), [github](https://github.com/apidsl)                               | open source 
-
-### API Gateway
-
- Project        | Description                             | More ...                                                                                                     | cost           
-----------------|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------
- **apiContext** | nonFree API, convert Text To **APIDSL** | [API](http://apiContext.com), [docs](http://docs.apiContext.com), [roadmap](http://roadmap.apiContext.com)   | 25$/user/month 
- **deploymat**  | nonFree API, deploy an **APIDSL** code  | [www](http://www.deploymat.com), [docs](http://docs.deploymat.com), [roadmap](http://roadmap.apiContext.com) | 25$/user/month 
+ **MetaModule**   | ![APIDSL](http://logo.metamodule.org/2/cover.png) modular components, apps, with local autodeployment                        | [www](https://www.metamodule.org), [docs](http://docs.metamodule.org), [roadmap](http://roadmap.apidsl.com), [download](http://download.apidsl.com), [github](https://github.com/apidsl)                      | open source 
 
 ### Others
 
@@ -98,6 +92,13 @@ table th {
  **PoLoGoS**      | ![PoLoGoS](http://logo.PoLoGoS.com/1/cover.png) AI Operating System                                      | [www](http://www.PoLoGoS.com), [docs](http://docs.PoLoGoS.com), [roadmap](http://roadmap.PoLoGoS.com), [download](http://download.PoLoGoS.com), [github](https://github.com/pologos)                                                | free 
  **OneDay.Run**   | ![OneDayRun](http://logo.OneDayRun.com/1/cover.png) Desktop Application to deployment local on pc        | [www](http://www.OneDayRun.com),  [docs](http://docs.OneDayRun.com), [roadmap](http://roadmap.OneDayRun.com)                                                                                                                        | free 
  **dialogStream** | Deployment in the fly in a seconds, in preapration, planned for 2024y.                                   | [www](http://www.dialogStream.com),  [docs](http://docs.dialogStream.com), [roadmap](http://roadmap.dialogStream.com)                                                                                                               | free 
+
+### API Gateway
+
+ Project        | Description                     | More ...                                                                                                     | cost           
+----------------|---------------------------------|--------------------------------------------------------------------------------------------------------------|----------------
+ **apiContext** | API, convert Text To **APIDSL** | [API](http://apiContext.com), [docs](http://docs.apiContext.com), [roadmap](http://roadmap.apiContext.com)   | 25$/user/month 
+ **deploymat**  | API, deploy an **APIDSL** code  | [www](http://www.deploymat.com), [docs](http://docs.deploymat.com), [roadmap](http://roadmap.apiContext.com) | 25$/user/month 
 
 ### Text To * <- Software, Documentation, Code Generators
 
