@@ -31,3 +31,23 @@ We are on [Pioneer](https://pioneer.app/join/dialogware.com)
 + text2api
 + domain-specific language
 
+
+write below in ascii art the text: no for war
+
+```
+__  __ 
+\ \/ /
+ \  / 
+ /  \ 
+/_/\_\
+|/ \|
+NO FOR WAR
+```              
+
+                                                                                         
+\  /\
+ \/  \
+ /\___/\
+/       \
+| O   O |
+ \_____/
